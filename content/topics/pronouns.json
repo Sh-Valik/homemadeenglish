@@ -1,0 +1,416 @@
+{
+  "id": "pronouns",
+  "title": "Pronouns",
+  "title_ru": "Местоимения",
+  "icon": "👤",
+  "level": 11,
+  "theory": {
+    "sections": [
+      {
+        "title": "Объектные местоимения",
+        "content": "Объектные местоимения отвечают на вопросы 'кому?', 'кого?', 'кем?'. Они стоят после глагола или предлога.",
+        "formula": "I -> me, you -> you, he -> him, she -> her, it -> it, we -> us, they -> them",
+        "examples": [
+          {
+            "en": "I love him.",
+            "ru": "Я люблю его."
+          },
+          {
+            "en": "Look at us!",
+            "ru": "Посмотри на нас!"
+          }
+        ]
+      },
+      {
+        "title": "Притяжательные местоимения-прилагательные",
+        "content": "Отвечают на вопрос 'чей?' и всегда стоят ПЕРЕД существительным.",
+        "formula": "my (мой), your (твой), his (его), her (ее), its (его/ее для неодуш.), our (наш), their (их)",
+        "examples": [
+          {
+            "en": "This is my car.",
+            "ru": "Это моя машина."
+          },
+          {
+            "en": "Where is your brother?",
+            "ru": "Где твой брат?"
+          }
+        ]
+      },
+      {
+        "title": "Абсолютные притяжательные местоимения",
+        "content": "Тоже отвечают на вопрос 'чей?', но используются БЕЗ существительного после них. Они заменяют фразу 'мой [предмет]'.",
+        "formula": "mine, yours, his, hers, ours, theirs",
+        "examples": [
+          {
+            "en": "This car is mine.",
+            "ru": "Эта машина — моя. (Без слова 'машина' в конце)"
+          },
+          {
+            "en": "Is this book yours?",
+            "ru": "Эта книга твоя?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я вижу ее.",
+        "words": [
+          "I",
+          "see",
+          "her",
+          "she",
+          "hers"
+        ],
+        "accepted_answers": [
+          "I see her"
+        ]
+      },
+      {
+        "prompt": "Это моя машина.",
+        "words": [
+          "This",
+          "is",
+          "my",
+          "car",
+          "mine",
+          "me"
+        ],
+        "accepted_answers": [
+          "This is my car"
+        ]
+      },
+      {
+        "prompt": "Эта книга твоя?",
+        "words": [
+          "Is",
+          "this",
+          "book",
+          "yours",
+          "your",
+          "you"
+        ],
+        "accepted_answers": [
+          "Is this book yours"
+        ]
+      },
+      {
+        "prompt": "Помоги нам, пожалуйста.",
+        "words": [
+          "Help",
+          "us",
+          "please",
+          "we",
+          "our"
+        ],
+        "accepted_answers": [
+          "Help us please"
+        ]
+      },
+      {
+        "prompt": "Где их дом?",
+        "words": [
+          "Where",
+          "is",
+          "their",
+          "house",
+          "theirs",
+          "they"
+        ],
+        "accepted_answers": [
+          "Where is their house"
+        ]
+      },
+      {
+        "prompt": "Он не любит меня.",
+        "words": [
+          "He",
+          "does",
+          "not",
+          "like",
+          "me",
+          "I",
+          "my"
+        ],
+        "accepted_answers": [
+          "He does not like me"
+        ]
+      },
+      {
+        "prompt": "Это его собака, а не наша.",
+        "words": [
+          "This",
+          "is",
+          "his",
+          "dog",
+          "not",
+          "ours",
+          "our",
+          "him"
+        ],
+        "accepted_answers": [
+          "This is his dog not ours"
+        ]
+      },
+      {
+        "prompt": "Поговори с ними.",
+        "words": [
+          "Talk",
+          "to",
+          "them",
+          "they",
+          "their"
+        ],
+        "accepted_answers": [
+          "Talk to them"
+        ]
+      },
+      {
+        "prompt": "Ее телефон на столе.",
+        "words": [
+          "Her",
+          "phone",
+          "is",
+          "on",
+          "the",
+          "table",
+          "hers",
+          "she"
+        ],
+        "accepted_answers": [
+          "Her phone is on the table"
+        ]
+      },
+      {
+        "prompt": "Дай мне мой карандаш.",
+        "words": [
+          "Give",
+          "me",
+          "my",
+          "pencil",
+          "I",
+          "mine"
+        ],
+        "accepted_answers": [
+          "Give me my pencil"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "Can you hear me?",
+        "options": [
+          "Ты меня слышишь?",
+          "Я тебя слышу?",
+          "Она меня слышит?",
+          "Мы тебя слышим?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The idea is theirs.",
+        "options": [
+          "Идея их.",
+          "Это их идея.",
+          "Они подали идею.",
+          "Идея наша."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She forgot her bag.",
+        "options": [
+          "Она забыла свою (ее) сумку.",
+          "Она забыла его сумку.",
+          "Она забыла эту сумку.",
+          "Она забыла сумку."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I don't know him.",
+        "options": [
+          "Я не знаю его.",
+          "Я не знаю ее.",
+          "Я не знаю их.",
+          "Я не знаю тебя."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Is this your coat?",
+        "options": [
+          "Это твое пальто?",
+          "Это мое пальто?",
+          "Это его пальто?",
+          "Это ваше пальто?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The dog is wagging its tail.",
+        "options": [
+          "Собака виляет своим (ее/его) хвостом.",
+          "Собака виляет твоим хвостом.",
+          "Собака виляет хвостом собаки.",
+          "Собака виляет моим хвостом."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Give it to us.",
+        "options": [
+          "Дай это нам.",
+          "Дай это мне.",
+          "Дай это им.",
+          "Дай это ей."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "That pen is mine.",
+        "options": [
+          "Та ручка — моя.",
+          "Это моя ручка.",
+          "Та ручка твоя.",
+          "Эта ручка моя."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They invited our friends.",
+        "options": [
+          "Они пригласили наших друзей.",
+          "Мы пригласили их друзей.",
+          "Они пригласили своих друзей.",
+          "Они пригласили моих друзей."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Tell her the truth.",
+        "options": [
+          "Расскажи ей правду.",
+          "Расскажи ему правду.",
+          "Расскажи мне правду.",
+          "Расскажи им правду."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I want to talk to ___.",
+        "options": [
+          "he",
+          "him",
+          "his",
+          "he's"
+        ],
+        "correct": 1,
+        "explanation": "После предлога (to) нужно объектное местоимение him (ему/с ним)."
+      },
+      {
+        "sentence": "This is ___ book. Don't touch it.",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "correct": 0,
+        "explanation": "Перед существительным (book) используется my (моя)."
+      },
+      {
+        "sentence": "The red car is ___.",
+        "options": [
+          "their",
+          "theirs",
+          "them",
+          "they"
+        ],
+        "correct": 1,
+        "explanation": "После глагола без существительного используется абсолютное местоимение theirs (их)."
+      },
+      {
+        "sentence": "She loves ___ cat very much.",
+        "options": [
+          "her",
+          "hers",
+          "she",
+          "she's"
+        ],
+        "correct": 0,
+        "explanation": "Перед существительным (cat) ставится her (ее)."
+      },
+      {
+        "sentence": "Did you see ___ at the party?",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "correct": 0,
+        "explanation": "После глагола (see) нужно объектное местоимение us (нас)."
+      },
+      {
+        "sentence": "Where is ___ phone?",
+        "options": [
+          "you",
+          "your",
+          "yours",
+          "you're"
+        ],
+        "correct": 1,
+        "explanation": "Перед существительным (phone) нужно притяжательное your (твой/ваш)."
+      },
+      {
+        "sentence": "These keys are ___.",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "correct": 1,
+        "explanation": "Без существительного после используется mine (мои)."
+      },
+      {
+        "sentence": "Let ___ help you with the bags.",
+        "options": [
+          "I",
+          "me",
+          "my",
+          "mine"
+        ],
+        "correct": 1,
+        "explanation": "После глагола (Let) используется объектное местоимение me (мне/меня)."
+      },
+      {
+        "sentence": "The company increased ___ profits.",
+        "options": [
+          "it",
+          "its",
+          "it's",
+          "itself"
+        ],
+        "correct": 1,
+        "explanation": "Для неодушевленных предметов и компаний используется its (свои/его)."
+      },
+      {
+        "sentence": "I gave ___ the money.",
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
+        "correct": 1,
+        "explanation": "После глагола (gave) используется объектное местоимение them (им)."
+      }
+    ]
+  }
+}

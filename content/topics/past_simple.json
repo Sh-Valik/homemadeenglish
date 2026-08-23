@@ -1,0 +1,493 @@
+{
+  "id": "past_simple",
+  "title": "Past Simple",
+  "title_ru": "Прошедшее простое время",
+  "icon": "⏳",
+  "level": 2,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое Past Simple?",
+        "content": "Past Simple (прошедшее простое время) описывает действия, которые произошли и завершились в прошлом. Мы используем его, когда:\n• Говорим о завершённых действиях в прошлом (I visited London last year)\n• Рассказываем последовательность событий (I woke up, had breakfast and went to work)\n• Описываем привычки в прошлом (She always wore a red dress)",
+        "examples": [
+          {
+            "en": "I visited Paris last summer.",
+            "ru": "Я посетил Париж прошлым летом."
+          },
+          {
+            "en": "She called me yesterday.",
+            "ru": "Она позвонила мне вчера."
+          }
+        ]
+      },
+      {
+        "title": "Правильные глаголы",
+        "content": "К правильным глаголам добавляется окончание -ed. Правила добавления:\n• Обычно: work → worked, play → played\n• Глагол на -e: live → lived, like → liked\n• Согласная + y: study → studied, try → tried\n• Короткий глагол CVC: stop → stopped, plan → planned",
+        "formula": "Subject + V2 (Ved)",
+        "examples": [
+          {
+            "en": "I worked yesterday.",
+            "ru": "Я работал вчера."
+          },
+          {
+            "en": "She studied hard.",
+            "ru": "Она усердно училась."
+          },
+          {
+            "en": "They played tennis.",
+            "ru": "Они играли в теннис."
+          }
+        ]
+      },
+      {
+        "title": "Неправильные глаголы",
+        "content": "Неправильные глаголы имеют особую форму прошедшего времени (V2), которую нужно запомнить.",
+        "examples": [
+          {
+            "en": "go → went",
+            "ru": "идти → шёл"
+          },
+          {
+            "en": "eat → ate",
+            "ru": "есть → ел"
+          },
+          {
+            "en": "see → saw",
+            "ru": "видеть → видел"
+          },
+          {
+            "en": "take → took",
+            "ru": "брать → взял"
+          },
+          {
+            "en": "come → came",
+            "ru": "приходить → пришёл"
+          },
+          {
+            "en": "buy → bought",
+            "ru": "покупать → купил"
+          },
+          {
+            "en": "make → made",
+            "ru": "делать → сделал"
+          },
+          {
+            "en": "have → had",
+            "ru": "иметь → имел"
+          }
+        ],
+        "tip": "Неправильные глаголы нужно учить наизусть! Их около 200, но самых частых — около 50."
+      },
+      {
+        "title": "Отрицание и вопросы",
+        "content": "Для отрицания и вопросов используется did. После did глагол стоит в начальной форме (V1)!",
+        "formula": "Отрицание: Subject + didn't + V1\nВопрос: Did + subject + V1?",
+        "examples": [
+          {
+            "en": "I didn't go to school.",
+            "ru": "Я не ходил в школу."
+          },
+          {
+            "en": "Did you see that movie?",
+            "ru": "Ты видел тот фильм?"
+          },
+          {
+            "en": "She didn't like the food.",
+            "ru": "Ей не понравилась еда."
+          }
+        ],
+        "tip": "Ошибка: Did you went? ❌ → Did you go? ✅"
+      },
+      {
+        "title": "Слова-маркеры Past Simple",
+        "content": "yesterday (вчера), last week/month/year (на прошлой неделе/в прошлом месяце/году), ago (назад), in 2020, when I was young (когда я был молодым).",
+        "examples": [
+          {
+            "en": "I moved here two years ago.",
+            "ru": "Я переехал сюда два года назад."
+          },
+          {
+            "en": "We met last Friday.",
+            "ru": "Мы встретились в прошлую пятницу."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я ходил в школу вчера.",
+        "words": [
+          "I",
+          "went",
+          "to",
+          "school",
+          "yesterday",
+          "go",
+          "goed",
+          "the"
+        ],
+        "accepted_answers": [
+          "I went to school yesterday"
+        ]
+      },
+      {
+        "prompt": "Она купила новое платье.",
+        "words": [
+          "She",
+          "bought",
+          "a",
+          "new",
+          "dress",
+          "buyed",
+          "the",
+          "buy"
+        ],
+        "accepted_answers": [
+          "She bought a new dress"
+        ]
+      },
+      {
+        "prompt": "Мы не смотрели этот фильм.",
+        "words": [
+          "We",
+          "didn't",
+          "watch",
+          "this",
+          "movie",
+          "watched",
+          "don't",
+          "that"
+        ],
+        "accepted_answers": [
+          "We didn't watch this movie"
+        ]
+      },
+      {
+        "prompt": "Он жил в Лондоне два года назад.",
+        "words": [
+          "He",
+          "lived",
+          "in",
+          "London",
+          "two",
+          "years",
+          "ago",
+          "lives",
+          "at"
+        ],
+        "accepted_answers": [
+          "He lived in London two years ago"
+        ]
+      },
+      {
+        "prompt": "Ты видел мою сумку?",
+        "words": [
+          "Did",
+          "you",
+          "see",
+          "my",
+          "bag",
+          "saw",
+          "Do",
+          "your"
+        ],
+        "accepted_answers": [
+          "Did you see my bag"
+        ]
+      },
+      {
+        "prompt": "Они играли в парке.",
+        "words": [
+          "They",
+          "played",
+          "in",
+          "the",
+          "park",
+          "play",
+          "at",
+          "a"
+        ],
+        "accepted_answers": [
+          "They played in the park"
+        ]
+      },
+      {
+        "prompt": "Я приготовил ужин вчера.",
+        "words": [
+          "I",
+          "cooked",
+          "dinner",
+          "yesterday",
+          "cook",
+          "cooking",
+          "lunch"
+        ],
+        "accepted_answers": [
+          "I cooked dinner yesterday"
+        ]
+      },
+      {
+        "prompt": "Она не позвонила мне.",
+        "words": [
+          "She",
+          "didn't",
+          "call",
+          "me",
+          "called",
+          "doesn't",
+          "her"
+        ],
+        "accepted_answers": [
+          "She didn't call me"
+        ]
+      },
+      {
+        "prompt": "Мы встретились на прошлой неделе.",
+        "words": [
+          "We",
+          "met",
+          "last",
+          "week",
+          "meet",
+          "meeted",
+          "next"
+        ],
+        "accepted_answers": [
+          "We met last week"
+        ]
+      },
+      {
+        "prompt": "Дети ели мороженое.",
+        "words": [
+          "The",
+          "children",
+          "ate",
+          "ice",
+          "cream",
+          "eat",
+          "eated",
+          "a"
+        ],
+        "accepted_answers": [
+          "The children ate ice cream"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I went to the cinema yesterday.",
+        "options": [
+          "Я ходил в кино вчера.",
+          "Я хожу в кино вчера.",
+          "Я пойду в кино завтра.",
+          "Я не ходил в кино вчера."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She didn't come to the party.",
+        "options": [
+          "Она не пришла на вечеринку.",
+          "Она пришла на вечеринку.",
+          "Она не приходит на вечеринку.",
+          "Она не придёт на вечеринку."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Did they finish the project?",
+        "options": [
+          "Они закончили проект?",
+          "Они заканчивают проект?",
+          "Они закончат проект?",
+          "Они не закончили проект."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He wrote a letter to his friend.",
+        "options": [
+          "Он написал письмо другу.",
+          "Он пишет письмо другу.",
+          "Он напишет письмо другу.",
+          "Он написал письмо подруге."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We had a great time last summer.",
+        "options": [
+          "Мы отлично провели время прошлым летом.",
+          "Мы отлично проводим время этим летом.",
+          "Мы плохо провели время прошлым летом.",
+          "Мы проведём отлично время летом."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The dog ran across the street.",
+        "options": [
+          "Собака пробежала через улицу.",
+          "Собака бежит через улицу.",
+          "Собака побежит через улицу.",
+          "Собака не бежала через улицу."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I forgot my keys at home.",
+        "options": [
+          "Я забыл ключи дома.",
+          "Я забываю ключи дома.",
+          "Я забуду ключи дома.",
+          "Я не забыл ключи дома."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She sang a beautiful song.",
+        "options": [
+          "Она спела красивую песню.",
+          "Она поёт красивую песню.",
+          "Она споёт красивую песню.",
+          "Она пела красивые песни."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They moved to a new city.",
+        "options": [
+          "Они переехали в новый город.",
+          "Они переезжают в новый город.",
+          "Они переедут в новый город.",
+          "Они не переехали в новый город."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I didn't understand the question.",
+        "options": [
+          "Я не понял вопрос.",
+          "Я не понимаю вопрос.",
+          "Я понял вопрос.",
+          "Я не пойму вопрос."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "She ___ to Paris last year.",
+        "options": [
+          "goes",
+          "went",
+          "go",
+          "going"
+        ],
+        "correct": 1,
+        "explanation": "Past Simple неправильного глагола go → went."
+      },
+      {
+        "sentence": "I ___ watch that movie.",
+        "options": [
+          "don't",
+          "didn't",
+          "doesn't",
+          "wasn't"
+        ],
+        "correct": 1,
+        "explanation": "Отрицание в Past Simple: didn't + V1."
+      },
+      {
+        "sentence": "___ you enjoy the concert?",
+        "options": [
+          "Do",
+          "Did",
+          "Does",
+          "Were"
+        ],
+        "correct": 1,
+        "explanation": "Вопрос в Past Simple: Did + subject + V1?"
+      },
+      {
+        "sentence": "We ___ a great time yesterday.",
+        "options": [
+          "have",
+          "had",
+          "has",
+          "having"
+        ],
+        "correct": 1,
+        "explanation": "have → had в Past Simple."
+      },
+      {
+        "sentence": "He ___ the window by accident.",
+        "options": [
+          "break",
+          "broke",
+          "breaks",
+          "broken"
+        ],
+        "correct": 1,
+        "explanation": "break → broke в Past Simple."
+      },
+      {
+        "sentence": "They ___ in this house for 10 years.",
+        "options": [
+          "live",
+          "lived",
+          "lives",
+          "living"
+        ],
+        "correct": 1,
+        "explanation": "Правильный глагол: live + d = lived."
+      },
+      {
+        "sentence": "She ___ a delicious cake.",
+        "options": [
+          "make",
+          "made",
+          "makes",
+          "making"
+        ],
+        "correct": 1,
+        "explanation": "make → made в Past Simple."
+      },
+      {
+        "sentence": "I ___ to music all evening.",
+        "options": [
+          "listen",
+          "listened",
+          "listens",
+          "listening"
+        ],
+        "correct": 1,
+        "explanation": "listen + ed = listened."
+      },
+      {
+        "sentence": "The children ___ in the garden.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "correct": 1,
+        "explanation": "play + ed = played."
+      },
+      {
+        "sentence": "He ___ buy anything.",
+        "options": [
+          "don't",
+          "didn't",
+          "doesn't",
+          "wasn't"
+        ],
+        "correct": 1,
+        "explanation": "Отрицание: didn't + V1."
+      }
+    ]
+  }
+}

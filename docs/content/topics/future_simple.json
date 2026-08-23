@@ -1,0 +1,453 @@
+{
+  "id": "future_simple",
+  "title": "Future Simple",
+  "title_ru": "Будущее простое время",
+  "icon": "🔮",
+  "level": 3,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое Future Simple?",
+        "content": "Future Simple (будущее простое) описывает действия, которые произойдут в будущем. Используем:\n• Для спонтанных решений (I'll help you)\n• Для прогнозов (It will rain tomorrow)\n• Для обещаний (I will call you later)\n• Для предположений (I think she will come)",
+        "examples": [
+          {
+            "en": "I will help you.",
+            "ru": "Я помогу тебе."
+          },
+          {
+            "en": "It will rain tomorrow.",
+            "ru": "Завтра будет дождь."
+          }
+        ]
+      },
+      {
+        "title": "Утвердительное предложение",
+        "content": "Строится с помощью will + V1. Will одинаков для всех лиц. Сокращённая форма: I'll, you'll, he'll и т.д.",
+        "formula": "Subject + will + V1",
+        "examples": [
+          {
+            "en": "I will travel to Japan.",
+            "ru": "Я поеду в Японию."
+          },
+          {
+            "en": "She'll be a great doctor.",
+            "ru": "Она будет отличным врачом."
+          },
+          {
+            "en": "They will arrive soon.",
+            "ru": "Они скоро прибудут."
+          }
+        ]
+      },
+      {
+        "title": "Отрицание и вопросы",
+        "content": "Отрицание: will not = won't. Вопрос: Will + subject + V1?",
+        "formula": "Отрицание: Subject + won't + V1\nВопрос: Will + subject + V1?",
+        "examples": [
+          {
+            "en": "I won't be late.",
+            "ru": "Я не опоздаю."
+          },
+          {
+            "en": "Will you come to the party?",
+            "ru": "Ты придёшь на вечеринку?"
+          },
+          {
+            "en": "She won't forget.",
+            "ru": "Она не забудет."
+          }
+        ],
+        "tip": "won't — это сокращение от will not."
+      },
+      {
+        "title": "Слова-маркеры",
+        "content": "tomorrow (завтра), next week/month/year, soon (скоро), in the future, I think/I believe, probably, perhaps.",
+        "examples": [
+          {
+            "en": "I'll see you next Monday.",
+            "ru": "Увидимся в следующий понедельник."
+          },
+          {
+            "en": "She will probably agree.",
+            "ru": "Она, вероятно, согласится."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я позвоню тебе завтра.",
+        "words": [
+          "I",
+          "will",
+          "call",
+          "you",
+          "tomorrow",
+          "called",
+          "calling",
+          "yesterday"
+        ],
+        "accepted_answers": [
+          "I will call you tomorrow"
+        ]
+      },
+      {
+        "prompt": "Она не придёт на вечеринку.",
+        "words": [
+          "She",
+          "won't",
+          "come",
+          "to",
+          "the",
+          "party",
+          "will",
+          "came"
+        ],
+        "accepted_answers": [
+          "She won't come to the party"
+        ]
+      },
+      {
+        "prompt": "Мы поедем в отпуск в июне.",
+        "words": [
+          "We",
+          "will",
+          "go",
+          "on",
+          "vacation",
+          "in",
+          "June",
+          "went",
+          "July"
+        ],
+        "accepted_answers": [
+          "We will go on vacation in June"
+        ]
+      },
+      {
+        "prompt": "Ты поможешь мне?",
+        "words": [
+          "Will",
+          "you",
+          "help",
+          "me",
+          "Do",
+          "helped",
+          "your"
+        ],
+        "accepted_answers": [
+          "Will you help me"
+        ]
+      },
+      {
+        "prompt": "Он скоро вернётся.",
+        "words": [
+          "He",
+          "will",
+          "come",
+          "back",
+          "soon",
+          "came",
+          "won't"
+        ],
+        "accepted_answers": [
+          "He will come back soon"
+        ]
+      },
+      {
+        "prompt": "Я думаю, завтра будет солнечно.",
+        "words": [
+          "I",
+          "think",
+          "it",
+          "will",
+          "be",
+          "sunny",
+          "tomorrow",
+          "was",
+          "is"
+        ],
+        "accepted_answers": [
+          "I think it will be sunny tomorrow"
+        ]
+      },
+      {
+        "prompt": "Они не забудут об этом.",
+        "words": [
+          "They",
+          "won't",
+          "forget",
+          "about",
+          "it",
+          "will",
+          "forgot"
+        ],
+        "accepted_answers": [
+          "They won't forget about it"
+        ]
+      },
+      {
+        "prompt": "Мы купим новую машину.",
+        "words": [
+          "We",
+          "will",
+          "buy",
+          "a",
+          "new",
+          "car",
+          "bought",
+          "the"
+        ],
+        "accepted_answers": [
+          "We will buy a new car"
+        ]
+      },
+      {
+        "prompt": "Она станет врачом.",
+        "words": [
+          "She",
+          "will",
+          "become",
+          "a",
+          "doctor",
+          "became",
+          "the"
+        ],
+        "accepted_answers": [
+          "She will become a doctor"
+        ]
+      },
+      {
+        "prompt": "Я не буду есть это.",
+        "words": [
+          "I",
+          "won't",
+          "eat",
+          "this",
+          "will",
+          "ate",
+          "that"
+        ],
+        "accepted_answers": [
+          "I won't eat this"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I will help you with your homework.",
+        "options": [
+          "Я помогу тебе с домашним заданием.",
+          "Я помогал тебе с домашним заданием.",
+          "Я помогаю тебе с домашним заданием.",
+          "Я не помогу тебе."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She won't come to the meeting.",
+        "options": [
+          "Она не придёт на встречу.",
+          "Она придёт на встречу.",
+          "Она не пришла на встречу.",
+          "Она не приходит на встречу."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Will they arrive on time?",
+        "options": [
+          "Они приедут вовремя?",
+          "Они приехали вовремя?",
+          "Они приезжают вовремя?",
+          "Они не приедут вовремя."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "It will be cold next week.",
+        "options": [
+          "На следующей неделе будет холодно.",
+          "На этой неделе холодно.",
+          "На прошлой неделе было холодно.",
+          "Сегодня холодно."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We will travel to Italy next summer.",
+        "options": [
+          "Мы поедем в Италию следующим летом.",
+          "Мы ездили в Италию прошлым летом.",
+          "Мы едем в Италию сейчас.",
+          "Мы не поедем в Италию."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He will probably call you later.",
+        "options": [
+          "Он, вероятно, позвонит тебе позже.",
+          "Он, вероятно, позвонил тебе.",
+          "Он точно позвонит тебе позже.",
+          "Он не позвонит тебе."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I won't forget your birthday.",
+        "options": [
+          "Я не забуду твой день рождения.",
+          "Я забуду твой день рождения.",
+          "Я не забыл твой день рождения.",
+          "Я не забываю день рождения."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The concert will start at 8 PM.",
+        "options": [
+          "Концерт начнётся в 8 вечера.",
+          "Концерт начался в 8 вечера.",
+          "Концерт начинается в 8 вечера.",
+          "Концерт не начнётся в 8."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Will you marry me?",
+        "options": [
+          "Ты выйдешь за меня?",
+          "Ты вышла за меня?",
+          "Ты выходишь за меня?",
+          "Ты не выйдешь за меня."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They will build a new school.",
+        "options": [
+          "Они построят новую школу.",
+          "Они построили новую школу.",
+          "Они строят новую школу.",
+          "Они не построят школу."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I ___ help you tomorrow.",
+        "options": [
+          "would",
+          "will",
+          "do",
+          "am"
+        ],
+        "correct": 1,
+        "explanation": "Future Simple: will + V1."
+      },
+      {
+        "sentence": "She ___ come to the party.",
+        "options": [
+          "will",
+          "won't",
+          "don't",
+          "didn't"
+        ],
+        "correct": 1,
+        "explanation": "Отрицание: won't + V1."
+      },
+      {
+        "sentence": "___ you be at home tonight?",
+        "options": [
+          "Do",
+          "Will",
+          "Are",
+          "Did"
+        ],
+        "correct": 1,
+        "explanation": "Вопрос: Will + subject + V1?"
+      },
+      {
+        "sentence": "They ___ arrive next Monday.",
+        "options": [
+          "won't",
+          "will",
+          "do",
+          "are"
+        ],
+        "correct": 1,
+        "explanation": "will + V1 для будущего."
+      },
+      {
+        "sentence": "I think it ___ rain today.",
+        "options": [
+          "will",
+          "is",
+          "does",
+          "was"
+        ],
+        "correct": 0,
+        "explanation": "I think + will для предположений."
+      },
+      {
+        "sentence": "He ___ forget this day.",
+        "options": [
+          "will",
+          "won't",
+          "don't",
+          "isn't"
+        ],
+        "correct": 1,
+        "explanation": "won't = will not."
+      },
+      {
+        "sentence": "We ___ move to a new apartment.",
+        "options": [
+          "won't",
+          "will",
+          "do",
+          "are"
+        ],
+        "correct": 1,
+        "explanation": "will + V1."
+      },
+      {
+        "sentence": "The train ___ leave at 6 PM.",
+        "options": [
+          "will",
+          "does",
+          "is",
+          "was"
+        ],
+        "correct": 0,
+        "explanation": "will + V1 для будущего."
+      },
+      {
+        "sentence": "I ___ be late, I promise.",
+        "options": [
+          "will",
+          "won't",
+          "don't",
+          "am not"
+        ],
+        "correct": 1,
+        "explanation": "won't = обещание не делать."
+      },
+      {
+        "sentence": "___ she pass the exam?",
+        "options": [
+          "Does",
+          "Will",
+          "Is",
+          "Did"
+        ],
+        "correct": 1,
+        "explanation": "Will + subject + V1?"
+      }
+    ]
+  }
+}

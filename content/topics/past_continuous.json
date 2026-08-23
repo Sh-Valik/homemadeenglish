@@ -1,0 +1,443 @@
+{
+  "id": "past_continuous",
+  "title": "Past Continuous",
+  "title_ru": "Прошедшее длительное время",
+  "icon": "🔙",
+  "level": 9,
+  "theory": {
+    "sections": [
+      {
+        "title": "Когда использовать Past Continuous?",
+        "content": "Past Continuous используется для описания процесса, который происходил (длился) в определенный момент в прошлом.",
+        "formula": "Подлежащее + was/were + V-ing",
+        "examples": [
+          {
+            "en": "I was sleeping at 10 PM.",
+            "ru": "Я спал в 10 вечера."
+          },
+          {
+            "en": "They were playing football all day.",
+            "ru": "Они играли в футбол весь день."
+          }
+        ],
+        "tip": "Слова-маркеры: at 5 o'clock yesterday, all day, while (в то время как)."
+      },
+      {
+        "title": "Past Continuous + Past Simple",
+        "content": "Часто Past Continuous (длительное действие) прерывается коротким действием в Past Simple.",
+        "examples": [
+          {
+            "en": "I was reading a book when he called.",
+            "ru": "Я читал книгу, когда он позвонил."
+          },
+          {
+            "en": "While we were walking, it started to rain.",
+            "ru": "Пока мы гуляли, начался дождь."
+          }
+        ]
+      },
+      {
+        "title": "Вопросы и отрицания",
+        "content": "В отрицаниях добавляем not после was/were. В вопросах was/were ставится перед подлежащим.",
+        "examples": [
+          {
+            "en": "She wasn't (was not) listening.",
+            "ru": "Она не слушала."
+          },
+          {
+            "en": "Were you working at 7 PM?",
+            "ru": "Ты работал в 7 вечера?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я читал книгу в 5 часов.",
+        "words": [
+          "I",
+          "was",
+          "reading",
+          "a",
+          "book",
+          "at",
+          "5",
+          "o'clock",
+          "were",
+          "read"
+        ],
+        "accepted_answers": [
+          "I was reading a book at 5 o'clock"
+        ]
+      },
+      {
+        "prompt": "Она не спала, когда я позвонил.",
+        "words": [
+          "She",
+          "was",
+          "not",
+          "sleeping",
+          "when",
+          "I",
+          "called",
+          "were",
+          "sleep"
+        ],
+        "accepted_answers": [
+          "She was not sleeping when I called"
+        ]
+      },
+      {
+        "prompt": "Что ты делал вчера в 8 вечера?",
+        "words": [
+          "What",
+          "were",
+          "you",
+          "doing",
+          "yesterday",
+          "at",
+          "8",
+          "PM",
+          "was",
+          "do"
+        ],
+        "accepted_answers": [
+          "What were you doing yesterday at 8 PM"
+        ]
+      },
+      {
+        "prompt": "Мы смотрели фильм весь вечер.",
+        "words": [
+          "We",
+          "were",
+          "watching",
+          "a",
+          "movie",
+          "all",
+          "evening",
+          "was",
+          "watch"
+        ],
+        "accepted_answers": [
+          "We were watching a movie all evening"
+        ]
+      },
+      {
+        "prompt": "Шел дождь, когда я проснулся.",
+        "words": [
+          "It",
+          "was",
+          "raining",
+          "when",
+          "I",
+          "woke",
+          "up",
+          "were",
+          "rain"
+        ],
+        "accepted_answers": [
+          "It was raining when I woke up"
+        ]
+      },
+      {
+        "prompt": "Они играли в теннис в 10 утра?",
+        "words": [
+          "Were",
+          "they",
+          "playing",
+          "tennis",
+          "at",
+          "10",
+          "AM",
+          "Was",
+          "play"
+        ],
+        "accepted_answers": [
+          "Were they playing tennis at 10 AM"
+        ]
+      },
+      {
+        "prompt": "Я готовил ужин, пока он убирался.",
+        "words": [
+          "I",
+          "was",
+          "cooking",
+          "dinner",
+          "while",
+          "he",
+          "was",
+          "cleaning",
+          "were",
+          "cook"
+        ],
+        "accepted_answers": [
+          "I was cooking dinner while he was cleaning"
+        ]
+      },
+      {
+        "prompt": "Ты не слушал меня.",
+        "words": [
+          "You",
+          "were",
+          "not",
+          "listening",
+          "to",
+          "me",
+          "was",
+          "listen"
+        ],
+        "accepted_answers": [
+          "You were not listening to me"
+        ]
+      },
+      {
+        "prompt": "Собака лаяла всю ночь.",
+        "words": [
+          "The",
+          "dog",
+          "was",
+          "barking",
+          "all",
+          "night",
+          "were",
+          "bark"
+        ],
+        "accepted_answers": [
+          "The dog was barking all night"
+        ]
+      },
+      {
+        "prompt": "Где он работал в прошлом году?",
+        "words": [
+          "Where",
+          "was",
+          "he",
+          "working",
+          "last",
+          "year",
+          "were",
+          "work"
+        ],
+        "accepted_answers": [
+          "Where was he working last year"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I was studying when the phone rang.",
+        "options": [
+          "Я учился, когда зазвонил телефон.",
+          "Я учусь, когда звонит телефон.",
+          "Я учился весь день.",
+          "Я буду учиться, когда он позвонит."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Were they waiting for us?",
+        "options": [
+          "Они ждут нас?",
+          "Они подождали нас?",
+          "Они ждали нас?",
+          "Где они ждали нас?"
+        ],
+        "correct": 2
+      },
+      {
+        "prompt": "It wasn't snowing yesterday.",
+        "options": [
+          "Вчера не шел снег.",
+          "Вчера шел снег.",
+          "Сегодня не идет снег.",
+          "Завтра не будет снега."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "While I was driving, I saw an accident.",
+        "options": [
+          "Когда я водил машину, я видел аварию.",
+          "Пока я вел машину, я увидел аварию.",
+          "Я увидел аварию и повел машину.",
+          "Пока он вел машину, я увидел аварию."
+        ],
+        "correct": 1
+      },
+      {
+        "prompt": "What was she doing at 3 PM?",
+        "options": [
+          "Что она делает в 3 часа?",
+          "Что она сделала в 3 часа?",
+          "Что она делала в 3 часа дня?",
+          "Что она будет делать в 3 часа?"
+        ],
+        "correct": 2
+      },
+      {
+        "prompt": "We were walking in the park all morning.",
+        "options": [
+          "Мы гуляли в парке все утро.",
+          "Мы погуляли в парке утром.",
+          "Мы будем гулять в парке все утро.",
+          "Мы гуляем в парке каждое утро."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He was listening to music.",
+        "options": [
+          "Он слушает музыку.",
+          "Он послушал музыку.",
+          "Он слушал музыку.",
+          "Он не слушал музыку."
+        ],
+        "correct": 2
+      },
+      {
+        "prompt": "Was it raining when you left?",
+        "options": [
+          "Шел ли дождь, когда ты ушел?",
+          "Пойдет ли дождь, когда ты уйдешь?",
+          "Идет ли дождь сейчас?",
+          "Дождь закончился, когда ты ушел?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They were talking loudly.",
+        "options": [
+          "Они говорят громко.",
+          "Они говорили громко.",
+          "Они поговорят громко.",
+          "Они не говорили громко."
+        ],
+        "correct": 1
+      },
+      {
+        "prompt": "I was having dinner at that time.",
+        "options": [
+          "Я ужинаю в это время.",
+          "Я поужинал в то время.",
+          "Я ужинал в то время.",
+          "Я буду ужинать в это время."
+        ],
+        "correct": 2
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I ___ sleeping at midnight.",
+        "options": [
+          "was",
+          "were",
+          "am",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "С местоимением I используется was."
+      },
+      {
+        "sentence": "They ___ playing soccer when it started to rain.",
+        "options": [
+          "was",
+          "were",
+          "are",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "С местоимением they используется were."
+      },
+      {
+        "sentence": "What ___ you doing yesterday at 5 PM?",
+        "options": [
+          "was",
+          "were",
+          "did",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "С you используется were, а также это вопрос, поэтому глагол ставится перед подлежащим."
+      },
+      {
+        "sentence": "She ___ reading a book while he was watching TV.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "has"
+        ],
+        "correct": 0,
+        "explanation": "С местоимением she используется was."
+      },
+      {
+        "sentence": "We were ___ in the garden all day.",
+        "options": [
+          "work",
+          "working",
+          "works",
+          "worked"
+        ],
+        "correct": 1,
+        "explanation": "В Past Continuous смысловой глагол всегда имеет окончание -ing."
+      },
+      {
+        "sentence": "It ___ raining when I left the house.",
+        "options": [
+          "wasn't",
+          "weren't",
+          "didn't",
+          "doesn't"
+        ],
+        "correct": 0,
+        "explanation": "С it используется was (wasn't в отрицании)."
+      },
+      {
+        "sentence": "___ he listening to the teacher?",
+        "options": [
+          "Was",
+          "Were",
+          "Did",
+          "Does"
+        ],
+        "correct": 0,
+        "explanation": "С he используется was в начале вопроса."
+      },
+      {
+        "sentence": "While I was walking home, I ___ an old friend.",
+        "options": [
+          "meet",
+          "met",
+          "was meeting",
+          "meeting"
+        ],
+        "correct": 1,
+        "explanation": "Длительное действие (was walking) прерывается коротким в Past Simple (met)."
+      },
+      {
+        "sentence": "The children were ___ computer games.",
+        "options": [
+          "play",
+          "played",
+          "playing",
+          "plays"
+        ],
+        "correct": 2,
+        "explanation": "В Past Continuous смысловой глагол всегда имеет окончание -ing."
+      },
+      {
+        "sentence": "I was studying ___ my brother was listening to music.",
+        "options": [
+          "when",
+          "while",
+          "during",
+          "so"
+        ],
+        "correct": 1,
+        "explanation": "While (пока, в то время как) соединяет два параллельных длительных процесса."
+      }
+    ]
+  }
+}

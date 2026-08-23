@@ -1,0 +1,437 @@
+{
+  "id": "future_going_to",
+  "title": "Future with 'Going to'",
+  "title_ru": "Планы на будущее (Going to)",
+  "icon": "📅",
+  "level": 14,
+  "theory": {
+    "sections": [
+      {
+        "title": "Когда использовать To Be Going To?",
+        "content": "Эта конструкция используется для выражения планов, намерений и решений, которые были приняты ДО момента речи. Она переводится как 'собираться что-то сделать'.",
+        "formula": "Подлежащее + am/is/are + going to + Инфинитив",
+        "examples": [
+          {
+            "en": "I am going to buy a new car.",
+            "ru": "Я собираюсь купить новую машину. (Это мой план)"
+          },
+          {
+            "en": "They are going to travel to Japan.",
+            "ru": "Они собираются поехать в Японию."
+          }
+        ]
+      },
+      {
+        "title": "Will или Going to?",
+        "content": "Will используется для спонтанных решений (принятых прямо сейчас), а Going to — для заранее спланированных.",
+        "examples": [
+          {
+            "en": "- We don't have milk. - I will go and buy some.",
+            "ru": "Спонтанное решение (я прямо сейчас решил пойти)."
+          },
+          {
+            "en": "- We don't have milk. - I know, I am going to buy it later.",
+            "ru": "Заранее запланированное действие (я уже знал об этом и собирался пойти)."
+          }
+        ]
+      },
+      {
+        "title": "Вопросы и отрицания",
+        "content": "Отрицание: am/is/are + not + going to. Вопрос: Am/Is/Are + подлежащее + going to.",
+        "examples": [
+          {
+            "en": "He isn't going to call her.",
+            "ru": "Он не собирается ей звонить."
+          },
+          {
+            "en": "Are you going to study tonight?",
+            "ru": "Ты собираешься учиться сегодня вечером?"
+          }
+        ],
+        "tip": "В разговорной речи 'going to' часто сокращается до 'gonna' (I'm gonna do it)."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я собираюсь посмотреть фильм.",
+        "words": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "watch",
+          "a",
+          "movie",
+          "will",
+          "is"
+        ],
+        "accepted_answers": [
+          "I am going to watch a movie"
+        ]
+      },
+      {
+        "prompt": "Она не собирается покупать это.",
+        "words": [
+          "She",
+          "is",
+          "not",
+          "going",
+          "to",
+          "buy",
+          "it",
+          "are",
+          "will"
+        ],
+        "accepted_answers": [
+          "She is not going to buy it"
+        ]
+      },
+      {
+        "prompt": "Что ты собираешься делать?",
+        "words": [
+          "What",
+          "are",
+          "you",
+          "going",
+          "to",
+          "do",
+          "is",
+          "am"
+        ],
+        "accepted_answers": [
+          "What are you going to do"
+        ]
+      },
+      {
+        "prompt": "Они собираются пожениться.",
+        "words": [
+          "They",
+          "are",
+          "going",
+          "to",
+          "get",
+          "married",
+          "is",
+          "will"
+        ],
+        "accepted_answers": [
+          "They are going to get married"
+        ]
+      },
+      {
+        "prompt": "Мы не собираемся сдаваться.",
+        "words": [
+          "We",
+          "are",
+          "not",
+          "going",
+          "to",
+          "give",
+          "up",
+          "is",
+          "will"
+        ],
+        "accepted_answers": [
+          "We are not going to give up"
+        ]
+      },
+      {
+        "prompt": "Где он собирается жить?",
+        "words": [
+          "Where",
+          "is",
+          "he",
+          "going",
+          "to",
+          "live",
+          "are",
+          "am"
+        ],
+        "accepted_answers": [
+          "Where is he going to live"
+        ]
+      },
+      {
+        "prompt": "Я собираюсь позвонить ей позже.",
+        "words": [
+          "I",
+          "am",
+          "going",
+          "to",
+          "call",
+          "her",
+          "later",
+          "will",
+          "is"
+        ],
+        "accepted_answers": [
+          "I am going to call her later"
+        ]
+      },
+      {
+        "prompt": "Дождь собирается начаться.",
+        "words": [
+          "It",
+          "is",
+          "going",
+          "to",
+          "rain",
+          "are",
+          "will"
+        ],
+        "accepted_answers": [
+          "It is going to rain"
+        ]
+      },
+      {
+        "prompt": "Ты собираешься помочь мне?",
+        "words": [
+          "Are",
+          "you",
+          "going",
+          "to",
+          "help",
+          "me",
+          "Is",
+          "will"
+        ],
+        "accepted_answers": [
+          "Are you going to help me"
+        ]
+      },
+      {
+        "prompt": "Он собирается продать свою машину.",
+        "words": [
+          "He",
+          "is",
+          "going",
+          "to",
+          "sell",
+          "his",
+          "car",
+          "are",
+          "will"
+        ],
+        "accepted_answers": [
+          "He is going to sell his car"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I am going to travel next year.",
+        "options": [
+          "Я собираюсь путешествовать в следующем году.",
+          "Я путешествовал в прошлом году.",
+          "Я буду путешествовать прямо сейчас.",
+          "Я хочу путешествовать."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Are they going to win?",
+        "options": [
+          "Они собираются выиграть?",
+          "Они выиграют?",
+          "Они выигрывают?",
+          "Они выиграли?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She isn't going to tell him.",
+        "options": [
+          "Она не собирается говорить ему.",
+          "Она не скажет ему.",
+          "Она не сказала ему.",
+          "Она не говорит ему."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We are going to buy a house.",
+        "options": [
+          "Мы собираемся купить дом.",
+          "Мы купим дом.",
+          "Мы покупаем дом.",
+          "Мы купили дом."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "What are you going to eat?",
+        "options": [
+          "Что ты собираешься есть?",
+          "Что ты будешь есть?",
+          "Что ты ел?",
+          "Что ты ешь?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "It is going to be cold.",
+        "options": [
+          "Будет холодно (я уверен).",
+          "Было холодно.",
+          "Холодно.",
+          "Может быть холодно."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is going to start a business.",
+        "options": [
+          "Он собирается начать бизнес.",
+          "Он начинает бизнес.",
+          "Он начнет бизнес.",
+          "Он начал бизнес."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Are you going to wait?",
+        "options": [
+          "Ты собираешься ждать?",
+          "Ты подождешь?",
+          "Ты ждешь?",
+          "Ты ждал?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I am not going to do that.",
+        "options": [
+          "Я не собираюсь делать это.",
+          "Я не сделаю это.",
+          "Я не делаю это.",
+          "Я не делал это."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They are going to study harder.",
+        "options": [
+          "Они собираются учиться усерднее.",
+          "Они будут учиться усерднее.",
+          "Они учатся усерднее.",
+          "Они учились усерднее."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I ___ going to visit my parents this weekend.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "will"
+        ],
+        "correct": 0,
+        "explanation": "Форма глагола to be для I — это am."
+      },
+      {
+        "sentence": "She ___ going to take the exam tomorrow.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "does"
+        ],
+        "correct": 0,
+        "explanation": "Форма глагола to be для she — это is."
+      },
+      {
+        "sentence": "___ they going to invite us?",
+        "options": [
+          "Are",
+          "Is",
+          "Am",
+          "Do"
+        ],
+        "correct": 0,
+        "explanation": "В вопросе с they используется Are."
+      },
+      {
+        "sentence": "Look at those clouds! It is going to ___.",
+        "options": [
+          "rain",
+          "raining",
+          "rained",
+          "rains"
+        ],
+        "correct": 0,
+        "explanation": "После going to всегда идет глагол в начальной форме (инфинитив)."
+      },
+      {
+        "sentence": "We ___ not going to move to another city.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "correct": 0,
+        "explanation": "Форма глагола to be для we — это are."
+      },
+      {
+        "sentence": "What ___ you going to do after school?",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "correct": 0,
+        "explanation": "Для you используется are."
+      },
+      {
+        "sentence": "- The phone is ringing! - I ___ answer it.",
+        "options": [
+          "will",
+          "am going to",
+          "is going to",
+          "are going to"
+        ],
+        "correct": 0,
+        "explanation": "Спонтанное решение, принятое прямо сейчас — используется will."
+      },
+      {
+        "sentence": "- Why did you buy sugar? - I ___ bake a cake.",
+        "options": [
+          "am going to",
+          "will",
+          "going to",
+          "am"
+        ],
+        "correct": 0,
+        "explanation": "Заранее спланированное действие — используется am going to."
+      },
+      {
+        "sentence": "He is going ___ start a new job.",
+        "options": [
+          "to",
+          "for",
+          "at",
+          "in"
+        ],
+        "correct": 0,
+        "explanation": "Конструкция: to be going TO + глагол."
+      },
+      {
+        "sentence": "I'm tired, so I'm ___ going to go out tonight.",
+        "options": [
+          "not",
+          "no",
+          "don't",
+          "doesn't"
+        ],
+        "correct": 0,
+        "explanation": "Отрицание образуется добавлением not после глагола to be (I am not going to...)."
+      }
+    ]
+  }
+}

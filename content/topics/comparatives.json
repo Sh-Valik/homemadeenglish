@@ -1,0 +1,472 @@
+{
+  "id": "comparatives",
+  "title": "Comparatives & Superlatives",
+  "title_ru": "Степени сравнения",
+  "icon": "📊",
+  "level": 8,
+  "theory": {
+    "sections": [
+      {
+        "title": "Степени сравнения прилагательных",
+        "content": "В английском языке прилагательные имеют три степени:\n• Положительная (big — большой)\n• Сравнительная (bigger — больше)\n• Превосходная (the biggest — самый большой)\n\nСпособ образования зависит от длины прилагательного.",
+        "examples": [
+          {
+            "en": "tall → taller → the tallest",
+            "ru": "высокий → выше → самый высокий"
+          },
+          {
+            "en": "beautiful → more beautiful → the most beautiful",
+            "ru": "красивый → красивее → самый красивый"
+          }
+        ]
+      },
+      {
+        "title": "Короткие прилагательные (1-2 слога)",
+        "content": "К коротким прилагательным добавляем -er (сравнительная) и -est (превосходная).\n\nПравила:\n• Обычно: tall → taller → tallest\n• На -e: large → larger → largest\n• Согласная + y: happy → happier → happiest\n• CVC: big → bigger → biggest (удвоение)",
+        "formula": "Сравнительная: Adj + er + than\nПревосходная: the + Adj + est",
+        "examples": [
+          {
+            "en": "She is taller than her sister.",
+            "ru": "Она выше своей сестры."
+          },
+          {
+            "en": "He is the oldest student.",
+            "ru": "Он самый старший студент."
+          },
+          {
+            "en": "This room is bigger than that one.",
+            "ru": "Эта комната больше той."
+          }
+        ]
+      },
+      {
+        "title": "Длинные прилагательные (2+ слога)",
+        "content": "Перед длинными прилагательными ставим more (сравнительная) и the most (превосходная).",
+        "formula": "Сравнительная: more + Adj + than\nПревосходная: the most + Adj",
+        "examples": [
+          {
+            "en": "This book is more interesting than that one.",
+            "ru": "Эта книга интереснее той."
+          },
+          {
+            "en": "She is the most beautiful girl.",
+            "ru": "Она самая красивая девушка."
+          },
+          {
+            "en": "English is more difficult than I thought.",
+            "ru": "Английский сложнее, чем я думал."
+          }
+        ]
+      },
+      {
+        "title": "Исключения",
+        "content": "Некоторые прилагательные имеют особые формы:\n• good → better → the best\n• bad → worse → the worst\n• far → farther/further → the farthest/furthest\n• little → less → the least\n• much/many → more → the most",
+        "examples": [
+          {
+            "en": "This is better than that.",
+            "ru": "Это лучше, чем то."
+          },
+          {
+            "en": "She is the best singer.",
+            "ru": "Она лучшая певица."
+          },
+          {
+            "en": "The weather is getting worse.",
+            "ru": "Погода становится хуже."
+          }
+        ],
+        "tip": "good-better-best и bad-worse-worst нужно запомнить!"
+      },
+      {
+        "title": "Конструкция as...as",
+        "content": "as + прилагательное + as = такой же...как\nnot as...as = не такой...как",
+        "examples": [
+          {
+            "en": "She is as tall as her mother.",
+            "ru": "Она такого же роста, как её мама."
+          },
+          {
+            "en": "This book is not as interesting as that one.",
+            "ru": "Эта книга не такая интересная, как та."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Она выше своей сестры.",
+        "words": [
+          "She",
+          "is",
+          "taller",
+          "than",
+          "her",
+          "sister",
+          "more tall",
+          "tall"
+        ],
+        "accepted_answers": [
+          "She is taller than her sister"
+        ]
+      },
+      {
+        "prompt": "Это лучший ресторан в городе.",
+        "words": [
+          "This",
+          "is",
+          "the",
+          "best",
+          "restaurant",
+          "in",
+          "city",
+          "better",
+          "good"
+        ],
+        "accepted_answers": [
+          "This is the best restaurant in the city"
+        ]
+      },
+      {
+        "prompt": "Зима холоднее осени.",
+        "words": [
+          "Winter",
+          "is",
+          "colder",
+          "than",
+          "autumn",
+          "more cold",
+          "coldest"
+        ],
+        "accepted_answers": [
+          "Winter is colder than autumn"
+        ]
+      },
+      {
+        "prompt": "Она самая красивая девушка.",
+        "words": [
+          "She",
+          "is",
+          "the",
+          "most",
+          "beautiful",
+          "girl",
+          "more",
+          "beautifulest"
+        ],
+        "accepted_answers": [
+          "She is the most beautiful girl"
+        ]
+      },
+      {
+        "prompt": "Мой дом больше твоего.",
+        "words": [
+          "My",
+          "house",
+          "is",
+          "bigger",
+          "than",
+          "yours",
+          "more big",
+          "biggest"
+        ],
+        "accepted_answers": [
+          "My house is bigger than yours"
+        ]
+      },
+      {
+        "prompt": "Это самая длинная река.",
+        "words": [
+          "This",
+          "is",
+          "the",
+          "longest",
+          "river",
+          "longer",
+          "more long"
+        ],
+        "accepted_answers": [
+          "This is the longest river"
+        ]
+      },
+      {
+        "prompt": "Английский легче, чем китайский.",
+        "words": [
+          "English",
+          "is",
+          "easier",
+          "than",
+          "Chinese",
+          "more easy",
+          "easy"
+        ],
+        "accepted_answers": [
+          "English is easier than Chinese"
+        ]
+      },
+      {
+        "prompt": "Он такой же умный, как его брат.",
+        "words": [
+          "He",
+          "is",
+          "as",
+          "smart",
+          "as",
+          "his",
+          "brother",
+          "smarter",
+          "than"
+        ],
+        "accepted_answers": [
+          "He is as smart as his brother"
+        ]
+      },
+      {
+        "prompt": "Это худший фильм.",
+        "words": [
+          "This",
+          "is",
+          "the",
+          "worst",
+          "movie",
+          "worse",
+          "baddest",
+          "bad"
+        ],
+        "accepted_answers": [
+          "This is the worst movie"
+        ]
+      },
+      {
+        "prompt": "Сегодня жарче, чем вчера.",
+        "words": [
+          "Today",
+          "is",
+          "hotter",
+          "than",
+          "yesterday",
+          "more hot",
+          "hottest"
+        ],
+        "accepted_answers": [
+          "Today is hotter than yesterday"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "She is taller than me.",
+        "options": [
+          "Она выше меня.",
+          "Она ниже меня.",
+          "Она такая же высокая.",
+          "Она самая высокая."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This is the most expensive car.",
+        "options": [
+          "Это самая дорогая машина.",
+          "Это дорогая машина.",
+          "Это более дорогая машина.",
+          "Это дешёвая машина."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He runs faster than his friend.",
+        "options": [
+          "Он бегает быстрее друга.",
+          "Он бегает медленнее друга.",
+          "Он бегает так же быстро.",
+          "Он бегает быстрее всех."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This test was worse than the last one.",
+        "options": [
+          "Этот тест был хуже предыдущего.",
+          "Этот тест был лучше предыдущего.",
+          "Этот тест был таким же.",
+          "Этот тест самый плохой."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She is the youngest in her family.",
+        "options": [
+          "Она самая младшая в семье.",
+          "Она младше в семье.",
+          "Она старшая в семье.",
+          "Она такая же молодая."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "My bag is as heavy as yours.",
+        "options": [
+          "Моя сумка такая же тяжёлая, как твоя.",
+          "Моя сумка тяжелее твоей.",
+          "Моя сумка легче твоей.",
+          "Моя сумка самая тяжёлая."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Summer is warmer than spring.",
+        "options": [
+          "Лето теплее весны.",
+          "Лето холоднее весны.",
+          "Лето такое же, как весна.",
+          "Весна теплее лета."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This is the best day of my life.",
+        "options": [
+          "Это лучший день в моей жизни.",
+          "Это хороший день.",
+          "Это худший день.",
+          "Это был хороший день."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is less experienced than her.",
+        "options": [
+          "У него меньше опыта, чем у неё.",
+          "У него больше опыта.",
+          "У них одинаковый опыт.",
+          "У неё меньше опыта."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This exercise is easier than I expected.",
+        "options": [
+          "Это упражнение легче, чем я ожидал.",
+          "Это упражнение сложнее.",
+          "Это упражнение такое же.",
+          "Это самое лёгкое упражнение."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "She is ___ than her brother.",
+        "options": [
+          "tall",
+          "taller",
+          "tallest",
+          "more tall"
+        ],
+        "correct": 1,
+        "explanation": "Сравнительная: tall → taller + than."
+      },
+      {
+        "sentence": "This is the ___ movie I've ever seen.",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "most good"
+        ],
+        "correct": 2,
+        "explanation": "Превосходная: good → best."
+      },
+      {
+        "sentence": "He is ___ intelligent than his classmate.",
+        "options": [
+          "most",
+          "more",
+          "many",
+          "much"
+        ],
+        "correct": 1,
+        "explanation": "more + длинное прилагательное."
+      },
+      {
+        "sentence": "This is the ___ building in the city.",
+        "options": [
+          "taller",
+          "tallest",
+          "most tall",
+          "tall"
+        ],
+        "correct": 1,
+        "explanation": "the + tallest (превосходная)."
+      },
+      {
+        "sentence": "The weather today is ___ than yesterday.",
+        "options": [
+          "bad",
+          "worse",
+          "worst",
+          "more bad"
+        ],
+        "correct": 1,
+        "explanation": "bad → worse (исключение)."
+      },
+      {
+        "sentence": "She is as ___ as her mother.",
+        "options": [
+          "more beautiful",
+          "beautiful",
+          "most beautiful",
+          "beautifuler"
+        ],
+        "correct": 1,
+        "explanation": "as + прилагательное + as."
+      },
+      {
+        "sentence": "This phone is ___ expensive than that one.",
+        "options": [
+          "most",
+          "more",
+          "much",
+          "many"
+        ],
+        "correct": 1,
+        "explanation": "more + expensive (длинное)."
+      },
+      {
+        "sentence": "He is the ___ runner on the team.",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "more fast"
+        ],
+        "correct": 2,
+        "explanation": "the + fastest (превосходная)."
+      },
+      {
+        "sentence": "My cat is ___ than yours.",
+        "options": [
+          "fat",
+          "fatter",
+          "fattest",
+          "more fat"
+        ],
+        "correct": 1,
+        "explanation": "fat → fatter (удвоение t)."
+      },
+      {
+        "sentence": "She has ___ money than I do.",
+        "options": [
+          "little",
+          "less",
+          "least",
+          "fewer"
+        ],
+        "correct": 1,
+        "explanation": "little → less (исключение)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "id": "passive_voice",
+  "title": "Passive Voice",
+  "title_ru": "Страдательный залог",
+  "icon": "🏗️",
+  "level": 17,
+  "theory": {
+    "sections": [
+      {
+        "title": "Активный vs Пассивный залог",
+        "content": "В Активном залоге подлежащее само выполняет действие (Шекспир написал Ромео и Джульетту). В Пассивном залоге действие выполняется НАД подлежащим (Ромео и Джульетта была написана Шекспиром).",
+        "examples": [
+          {
+            "en": "Active: Somebody cleans this room every day.",
+            "ru": "Кто-то убирает эту комнату каждый день."
+          },
+          {
+            "en": "Passive: This room is cleaned every day.",
+            "ru": "Эта комната убирается каждый день."
+          }
+        ]
+      },
+      {
+        "title": "Present Simple Passive",
+        "content": "Используется для регулярных действий или фактов в настоящем.",
+        "formula": "am/is/are + V3 (3-я форма глагола / -ed)",
+        "examples": [
+          {
+            "en": "English is spoken all over the world.",
+            "ru": "На английском говорят по всему миру."
+          },
+          {
+            "en": "These cars are made in Japan.",
+            "ru": "Эти машины производятся в Японии."
+          }
+        ]
+      },
+      {
+        "title": "Past Simple Passive",
+        "content": "Используется для завершенных действий в прошлом.",
+        "formula": "was/were + V3 (3-я форма глагола / -ed)",
+        "examples": [
+          {
+            "en": "The letter was sent yesterday.",
+            "ru": "Письмо было отправлено вчера."
+          },
+          {
+            "en": "The pyramids were built long ago.",
+            "ru": "Пирамиды были построены давно."
+          }
+        ],
+        "tip": "Если нужно указать, КЕМ было выполнено действие, используется предлог BY: The book was written BY him."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Эта комната убирается каждый день.",
+        "words": [
+          "This",
+          "room",
+          "is",
+          "cleaned",
+          "every",
+          "day",
+          "cleans",
+          "was"
+        ],
+        "accepted_answers": [
+          "This room is cleaned every day"
+        ]
+      },
+      {
+        "prompt": "Письмо было отправлено вчера.",
+        "words": [
+          "The",
+          "letter",
+          "was",
+          "sent",
+          "yesterday",
+          "is",
+          "send"
+        ],
+        "accepted_answers": [
+          "The letter was sent yesterday"
+        ]
+      },
+      {
+        "prompt": "Машина была куплена в прошлом году.",
+        "words": [
+          "The",
+          "car",
+          "was",
+          "bought",
+          "last",
+          "year",
+          "is",
+          "buy"
+        ],
+        "accepted_answers": [
+          "The car was bought last year"
+        ]
+      },
+      {
+        "prompt": "Сыр делают из молока.",
+        "words": [
+          "Cheese",
+          "is",
+          "made",
+          "from",
+          "milk",
+          "are",
+          "make"
+        ],
+        "accepted_answers": [
+          "Cheese is made from milk"
+        ]
+      },
+      {
+        "prompt": "Нас не пригласили на вечеринку.",
+        "words": [
+          "We",
+          "were",
+          "not",
+          "invited",
+          "to",
+          "the",
+          "party",
+          "was",
+          "invite"
+        ],
+        "accepted_answers": [
+          "We were not invited to the party"
+        ]
+      },
+      {
+        "prompt": "Где была сделана эта фотография?",
+        "words": [
+          "Where",
+          "was",
+          "this",
+          "photo",
+          "taken",
+          "is",
+          "take"
+        ],
+        "accepted_answers": [
+          "Where was this photo taken"
+        ]
+      },
+      {
+        "prompt": "Дом был построен моим дедушкой.",
+        "words": [
+          "The",
+          "house",
+          "was",
+          "built",
+          "by",
+          "my",
+          "grandfather",
+          "is",
+          "build"
+        ],
+        "accepted_answers": [
+          "The house was built by my grandfather"
+        ]
+      },
+      {
+        "prompt": "Эти компьютеры производятся в Китае.",
+        "words": [
+          "These",
+          "computers",
+          "are",
+          "made",
+          "in",
+          "China",
+          "is",
+          "make"
+        ],
+        "accepted_answers": [
+          "These computers are made in China"
+        ]
+      },
+      {
+        "prompt": "Окно было разбито мальчиком.",
+        "words": [
+          "The",
+          "window",
+          "was",
+          "broken",
+          "by",
+          "the",
+          "boy",
+          "is",
+          "break"
+        ],
+        "accepted_answers": [
+          "The window was broken by the boy"
+        ]
+      },
+      {
+        "prompt": "Меня попросили помочь.",
+        "words": [
+          "I",
+          "was",
+          "asked",
+          "to",
+          "help",
+          "am",
+          "ask"
+        ],
+        "accepted_answers": [
+          "I was asked to help"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "This book is read by many people.",
+        "options": [
+          "Эта книга читается многими людьми.",
+          "Эта книга читает многих людей.",
+          "Многие люди читают эту книгу (активный залог).",
+          "Эта книга была прочитана."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The thief was caught yesterday.",
+        "options": [
+          "Вор был пойман вчера.",
+          "Вор поймал кого-то вчера.",
+          "Вора поймают завтра.",
+          "Вора ловят сейчас."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Wine is made from grapes.",
+        "options": [
+          "Вино делают из винограда.",
+          "Виноград делает вино.",
+          "Вино сделали из винограда.",
+          "Вино будут делать из винограда."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "My phone was stolen.",
+        "options": [
+          "Мой телефон украли.",
+          "Я украл телефон.",
+          "Мой телефон крадут.",
+          "Мой телефон сломали."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is loved by everyone.",
+        "options": [
+          "Его все любят (Он любим всеми).",
+          "Он любит всех.",
+          "Его любили все.",
+          "Его будут любить все."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The bridge was built in 1900.",
+        "options": [
+          "Мост был построен в 1900 году.",
+          "Мост строят с 1900 года.",
+          "Мост строился в 1900 году.",
+          "Он построил мост в 1900 году."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Are these toys made in Japan?",
+        "options": [
+          "Эти игрушки сделаны в Японии?",
+          "Эти игрушки делают Японию?",
+          "Были ли эти игрушки сделаны в Японии?",
+          "Кто сделал эти игрушки?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I wasn't informed about the meeting.",
+        "options": [
+          "Меня не проинформировали о встрече.",
+          "Я не проинформировал о встрече.",
+          "Меня не информируют о встрече.",
+          "Я не знал о встрече."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The dog was fed an hour ago.",
+        "options": [
+          "Собаку покормили час назад.",
+          "Собака поела час назад.",
+          "Собака покормила час назад.",
+          "Собаку кормят сейчас."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Millions of emails are sent every day.",
+        "options": [
+          "Миллионы писем отправляются каждый день.",
+          "Миллионы людей отправляют письма.",
+          "Миллионы писем были отправлены.",
+          "Миллионы писем отправят завтра."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "My car ___ repaired yesterday.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "are"
+        ],
+        "correct": 0,
+        "explanation": "Действие в прошлом (yesterday), единственное число (car) -> was."
+      },
+      {
+        "sentence": "English ___ spoken in many countries.",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "were"
+        ],
+        "correct": 0,
+        "explanation": "Факт в настоящем времени, English (ед.ч.) -> is."
+      },
+      {
+        "sentence": "Two men ___ arrested last night.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "В прошлом (last night), множественное число (men) -> were."
+      },
+      {
+        "sentence": "The letters ___ delivered every morning.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "was"
+        ],
+        "correct": 0,
+        "explanation": "Регулярное действие в настоящем (every morning), мн.ч. (letters) -> are."
+      },
+      {
+        "sentence": "This picture was ___ by Picasso.",
+        "options": [
+          "painted",
+          "paint",
+          "paints",
+          "painting"
+        ],
+        "correct": 0,
+        "explanation": "В пассиве всегда используется 3-я форма глагола (V3) -> painted."
+      },
+      {
+        "sentence": "The window was broken ___ the boy.",
+        "options": [
+          "by",
+          "with",
+          "from",
+          "of"
+        ],
+        "correct": 0,
+        "explanation": "В пассивном залоге исполнитель действия вводится предлогом by."
+      },
+      {
+        "sentence": "___ you invited to the party last week?",
+        "options": [
+          "Were",
+          "Was",
+          "Are",
+          "Did"
+        ],
+        "correct": 0,
+        "explanation": "В прошлом, с местоимением you используется were."
+      },
+      {
+        "sentence": "Coffee ___ grown in Brazil.",
+        "options": [
+          "is",
+          "was",
+          "has",
+          "does"
+        ],
+        "correct": 0,
+        "explanation": "Факт в настоящем времени -> is."
+      },
+      {
+        "sentence": "The room ___ not cleaned yesterday.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "did"
+        ],
+        "correct": 0,
+        "explanation": "Прошлое время (yesterday), ед.ч. -> was."
+      },
+      {
+        "sentence": "These books ___ written in 2010.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "В прошлом (in 2010), мн.ч. (books) -> were."
+      }
+    ]
+  }
+}

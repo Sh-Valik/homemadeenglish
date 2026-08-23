@@ -1,0 +1,148 @@
+{
+  "topics": [
+    {
+      "id": "present_simple",
+      "title": "Present Simple",
+      "title_ru": "Настоящее простое время",
+      "icon": "🚀",
+      "level": 1,
+      "description": "Говорим о привычках, фактах и повторяющихся действиях"
+    },
+    {
+      "id": "past_simple",
+      "title": "Past Simple",
+      "title_ru": "Прошедшее простое время",
+      "icon": "⏳",
+      "level": 2,
+      "description": "Рассказываем о завершённых действиях в прошлом"
+    },
+    {
+      "id": "future_simple",
+      "title": "Future Simple",
+      "title_ru": "Будущее простое время",
+      "icon": "🔮",
+      "level": 3,
+      "description": "Говорим о планах, прогнозах и спонтанных решениях"
+    },
+    {
+      "id": "present_continuous",
+      "title": "Present Continuous",
+      "title_ru": "Настоящее длительное время",
+      "icon": "🔄",
+      "level": 4,
+      "description": "Описываем действия, происходящие прямо сейчас"
+    },
+    {
+      "id": "articles",
+      "title": "Articles",
+      "title_ru": "Артикли a / an / the",
+      "icon": "📝",
+      "level": 5,
+      "description": "Учимся правильно использовать артикли"
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions",
+      "title_ru": "Предлоги in / on / at",
+      "icon": "📍",
+      "level": 6,
+      "description": "Предлоги места и времени"
+    },
+    {
+      "id": "modal_verbs",
+      "title": "Modal Verbs",
+      "title_ru": "Модальные глаголы",
+      "icon": "💪",
+      "level": 7,
+      "description": "Can, must, should и другие модальные глаголы"
+    },
+    {
+      "id": "comparatives",
+      "title": "Comparatives & Superlatives",
+      "title_ru": "Степени сравнения",
+      "icon": "📊",
+      "level": 8,
+      "description": "Сравнительная и превосходная степени прилагательных"
+    },
+    {
+      "id": "past_continuous",
+      "title": "Past Continuous",
+      "title_ru": "Прошедшее длительное время",
+      "icon": "🔙",
+      "level": 9,
+      "description": "Действия, которые происходили в определенный момент в прошлом"
+    },
+    {
+      "id": "present_perfect",
+      "title": "Present Perfect",
+      "title_ru": "Настоящее совершенное время",
+      "icon": "✅",
+      "level": 10,
+      "description": "События в прошлом, результат которых важен сейчас"
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns",
+      "title_ru": "Местоимения",
+      "icon": "👤",
+      "level": 11,
+      "description": "Объектные и притяжательные местоимения (me, my, mine)"
+    },
+    {
+      "id": "adj_vs_adv",
+      "title": "Adjectives vs Adverbs",
+      "title_ru": "Прилагательные и наречия",
+      "icon": "🏎️",
+      "level": 12,
+      "description": "Разница между 'какой?' и 'как?' (quick vs quickly)"
+    },
+    {
+      "id": "countable_uncountable",
+      "title": "Countable & Uncountable",
+      "title_ru": "Исчисляемые и неисчисляемые",
+      "icon": "🥛",
+      "level": 13,
+      "description": "Существительные, much/many, some/any"
+    },
+    {
+      "id": "future_going_to",
+      "title": "Future with 'Going to'",
+      "title_ru": "Планы на будущее",
+      "icon": "📅",
+      "level": 14,
+      "description": "Выражение планов и намерений с конструкцией to be going to"
+    },
+    {
+      "id": "present_perfect_vs_past_simple",
+      "title": "Present Perfect vs Past Simple",
+      "title_ru": "Perfect против Simple",
+      "icon": "⚖️",
+      "level": 15,
+      "description": "Как не путать два самых частых прошедших времени"
+    },
+    {
+      "id": "conditionals",
+      "title": "Conditionals (0, 1)",
+      "title_ru": "Условные предложения",
+      "icon": "❓",
+      "level": 16,
+      "description": "Реальные условия в настоящем и будущем (If I do...)"
+    },
+    {
+      "id": "passive_voice",
+      "title": "Passive Voice",
+      "title_ru": "Страдательный залог",
+      "icon": "🏗️",
+      "level": 17,
+      "description": "Основы пассивного залога (It is made, it was built)"
+    },
+    {
+      "id": "gerund_vs_infinitive",
+      "title": "Gerund vs Infinitive",
+      "title_ru": "Герундий или Инфинитив",
+      "icon": "🏊",
+      "level": 18,
+      "description": "Что ставить после глаголов: I like doing vs I want to do"
+    }
+  ]
+}

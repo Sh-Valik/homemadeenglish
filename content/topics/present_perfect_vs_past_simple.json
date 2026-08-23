@@ -1,0 +1,428 @@
+{
+  "id": "present_perfect_vs_past_simple",
+  "title": "Perfect vs Simple",
+  "title_ru": "Perfect против Simple",
+  "icon": "⚖️",
+  "level": 15,
+  "theory": {
+    "sections": [
+      {
+        "title": "Главное отличие",
+        "content": "Past Simple говорит о том, КОГДА произошло действие. Present Perfect говорит о том, ЧТО произошло (результат), а когда — неважно.",
+        "examples": [
+          {
+            "en": "I lost my key yesterday.",
+            "ru": "Я потерял ключ вчера. (Past Simple - фокус на времени 'вчера')"
+          },
+          {
+            "en": "I have lost my key.",
+            "ru": "Я потерял ключ. (Present Perfect - фокус на результате 'сейчас я без ключа')"
+          }
+        ]
+      },
+      {
+        "title": "Слова-маркеры",
+        "content": "Для Past Simple: yesterday, last week, in 1999, two days ago, when.\nДля Present Perfect: just, already, yet, ever, never, recently.",
+        "examples": [
+          {
+            "en": "When did you buy this car?",
+            "ru": "Когда ты купил эту машину? (Вопрос 'when' всегда требует Past Simple)"
+          },
+          {
+            "en": "Have you ever bought a car?",
+            "ru": "Ты когда-нибудь покупал машину? (Опыт за всю жизнь)"
+          }
+        ]
+      },
+      {
+        "title": "Завершенный vs Незавершенный период",
+        "content": "Если период времени уже закончился (вчера, прошлый год) — используем Past Simple. Если период еще идет (сегодня, на этой неделе, в моей жизни) — Present Perfect.",
+        "examples": [
+          {
+            "en": "I drank 3 cups of coffee yesterday.",
+            "ru": "Вчера я выпил 3 чашки кофе. (Вчера закончилось)"
+          },
+          {
+            "en": "I have drunk 3 cups of coffee today.",
+            "ru": "Сегодня я выпил 3 чашки кофе. (Сегодня еще не закончилось, могу выпить еще)"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я видел его вчера.",
+        "words": [
+          "I",
+          "saw",
+          "him",
+          "yesterday",
+          "have",
+          "seen"
+        ],
+        "accepted_answers": [
+          "I saw him yesterday"
+        ]
+      },
+      {
+        "prompt": "Я только что видел его.",
+        "words": [
+          "I",
+          "have",
+          "just",
+          "seen",
+          "him",
+          "saw",
+          "did"
+        ],
+        "accepted_answers": [
+          "I have just seen him"
+        ]
+      },
+      {
+        "prompt": "Когда ты приехал?",
+        "words": [
+          "When",
+          "did",
+          "you",
+          "arrive",
+          "have",
+          "arrived"
+        ],
+        "accepted_answers": [
+          "When did you arrive"
+        ]
+      },
+      {
+        "prompt": "Ты когда-нибудь был в Париже?",
+        "words": [
+          "Have",
+          "you",
+          "ever",
+          "been",
+          "to",
+          "Paris",
+          "Did",
+          "go"
+        ],
+        "accepted_answers": [
+          "Have you ever been to Paris"
+        ]
+      },
+      {
+        "prompt": "Она жила в Лондоне 5 лет.",
+        "words": [
+          "She",
+          "lived",
+          "in",
+          "London",
+          "for",
+          "5",
+          "years",
+          "has",
+          "lives"
+        ],
+        "accepted_answers": [
+          "She lived in London for 5 years"
+        ]
+      },
+      {
+        "prompt": "Она живет здесь всю свою жизнь.",
+        "words": [
+          "She",
+          "has",
+          "lived",
+          "here",
+          "all",
+          "her",
+          "life",
+          "lived",
+          "is"
+        ],
+        "accepted_answers": [
+          "She has lived here all her life"
+        ]
+      },
+      {
+        "prompt": "Мы не виделись на этой неделе.",
+        "words": [
+          "We",
+          "have",
+          "not",
+          "seen",
+          "each",
+          "other",
+          "this",
+          "week",
+          "did",
+          "see"
+        ],
+        "accepted_answers": [
+          "We have not seen each other this week"
+        ]
+      },
+      {
+        "prompt": "Они ушли 10 минут назад.",
+        "words": [
+          "They",
+          "left",
+          "10",
+          "minutes",
+          "ago",
+          "have",
+          "leave"
+        ],
+        "accepted_answers": [
+          "They left 10 minutes ago"
+        ]
+      },
+      {
+        "prompt": "Я еще не закончил.",
+        "words": [
+          "I",
+          "have",
+          "not",
+          "finished",
+          "yet",
+          "did",
+          "finish"
+        ],
+        "accepted_answers": [
+          "I have not finished yet"
+        ]
+      },
+      {
+        "prompt": "Он потерял свои ключи сегодня утром.",
+        "words": [
+          "He",
+          "lost",
+          "his",
+          "keys",
+          "this",
+          "morning",
+          "has",
+          "lose"
+        ],
+        "accepted_answers": [
+          "He lost his keys this morning"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "Did you see that?",
+        "options": [
+          "Ты видел это?",
+          "Ты видишь это?",
+          "Ты посмотришь на это?",
+          "Ты когда-нибудь видел это?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Have you seen that?",
+        "options": [
+          "Ты видел это? (вообще когда-либо / к этому моменту)",
+          "Ты видел это вчера?",
+          "Ты видишь это сейчас?",
+          "Где ты видел это?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I lived there in 2010.",
+        "options": [
+          "Я жил там в 2010 году.",
+          "Я живу там с 2010 года.",
+          "Я буду жить там в 2010 году.",
+          "Я переехал туда в 2010 году."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I have lived here since 2010.",
+        "options": [
+          "Я живу здесь с 2010 года.",
+          "Я жил здесь в 2010 году.",
+          "Я буду жить здесь с 2010 года.",
+          "Я переехал сюда в 2010 году."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "When did it happen?",
+        "options": [
+          "Когда это случилось?",
+          "Когда это случится?",
+          "Почему это случилось?",
+          "Это уже случилось?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Has it happened yet?",
+        "options": [
+          "Это уже случилось?",
+          "Когда это случилось?",
+          "Это случится?",
+          "Почему это случилось?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She didn't call me yesterday.",
+        "options": [
+          "Она не звонила мне вчера.",
+          "Она не звонила мне сегодня.",
+          "Она еще не звонила мне.",
+          "Она никогда мне не звонила."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She hasn't called me yet.",
+        "options": [
+          "Она мне еще не звонила.",
+          "Она мне не звонила вчера.",
+          "Она мне никогда не звонила.",
+          "Она мне не звонит."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I have never eaten sushi.",
+        "options": [
+          "Я никогда не ел суши.",
+          "Я не ел суши вчера.",
+          "Я не ем суши.",
+          "Я поем суши."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I didn't eat sushi yesterday.",
+        "options": [
+          "Я не ел суши вчера.",
+          "Я никогда не ел суши.",
+          "Я еще не ел суши.",
+          "Я не ем суши."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I ___ to London last year.",
+        "options": [
+          "went",
+          "have gone",
+          "go",
+          "was going"
+        ],
+        "correct": 0,
+        "explanation": "Маркер 'last year' указывает на завершенный период в прошлом, нужен Past Simple."
+      },
+      {
+        "sentence": "I ___ to London three times in my life.",
+        "options": [
+          "have been",
+          "was",
+          "went",
+          "am being"
+        ],
+        "correct": 0,
+        "explanation": "Жизненный опыт ('in my life'), период еще не завершен, нужен Present Perfect."
+      },
+      {
+        "sentence": "___ you ever eaten Thai food?",
+        "options": [
+          "Have",
+          "Did",
+          "Do",
+          "Are"
+        ],
+        "correct": 0,
+        "explanation": "Маркер 'ever' (когда-либо) указывает на опыт, нужен Present Perfect."
+      },
+      {
+        "sentence": "When ___ you buy this laptop?",
+        "options": [
+          "did",
+          "have",
+          "do",
+          "are"
+        ],
+        "correct": 0,
+        "explanation": "Вопрос со словом 'When' всегда требует Past Simple."
+      },
+      {
+        "sentence": "He ___ his leg yesterday.",
+        "options": [
+          "broke",
+          "has broken",
+          "breaks",
+          "is breaking"
+        ],
+        "correct": 0,
+        "explanation": "Маркер 'yesterday' требует Past Simple."
+      },
+      {
+        "sentence": "Oh no! I ___ my phone!",
+        "options": [
+          "have lost",
+          "lost",
+          "lose",
+          "am losing"
+        ],
+        "correct": 0,
+        "explanation": "Важен результат в настоящем ('Я без телефона сейчас'), точное время не указано, нужен Present Perfect."
+      },
+      {
+        "sentence": "We ___ each other since we were kids.",
+        "options": [
+          "have known",
+          "knew",
+          "know",
+          "are knowing"
+        ],
+        "correct": 0,
+        "explanation": "Маркер 'since' (с какого-то момента до сейчас) требует Present Perfect."
+      },
+      {
+        "sentence": "William Shakespeare ___ many plays.",
+        "options": [
+          "wrote",
+          "has written",
+          "writes",
+          "was writing"
+        ],
+        "correct": 0,
+        "explanation": "Шекспир умер, его жизненный период завершен, поэтому Past Simple."
+      },
+      {
+        "sentence": "My brother is a writer. He ___ three books.",
+        "options": [
+          "has written",
+          "wrote",
+          "writes",
+          "write"
+        ],
+        "correct": 0,
+        "explanation": "Брат жив (писатель), он может написать еще, поэтому Present Perfect."
+      },
+      {
+        "sentence": "I ___ my homework yet.",
+        "options": [
+          "haven't finished",
+          "didn't finish",
+          "don't finish",
+          "am not finishing"
+        ],
+        "correct": 0,
+        "explanation": "Маркер 'yet' требует Present Perfect."
+      }
+    ]
+  }
+}

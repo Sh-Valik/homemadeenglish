@@ -1,0 +1,449 @@
+{
+  "id": "conditionals",
+  "title": "Conditionals (0, 1)",
+  "title_ru": "Условные предложения",
+  "icon": "❓",
+  "level": 16,
+  "theory": {
+    "sections": [
+      {
+        "title": "Zero Conditional (Нулевой тип)",
+        "content": "Используется для фактов, законов природы и вещей, которые всегда верны. В обеих частях предложения используется Present Simple.",
+        "formula": "If + Present Simple, Present Simple",
+        "examples": [
+          {
+            "en": "If you heat ice, it melts.",
+            "ru": "Если нагревать лед, он тает."
+          },
+          {
+            "en": "If I am late, my boss is angry.",
+            "ru": "Если я опаздываю, мой босс злится."
+          }
+        ]
+      },
+      {
+        "title": "First Conditional (Первый тип)",
+        "content": "Используется для реальных, возможных ситуаций в будущем. Важное правило: после слова IF нельзя ставить WILL!",
+        "formula": "If + Present Simple, WILL + Инфинитив",
+        "examples": [
+          {
+            "en": "If it rains, we will stay at home.",
+            "ru": "Если пойдет дождь, мы останемся дома. (Не 'If it will rain')"
+          },
+          {
+            "en": "If you help me, I will help you.",
+            "ru": "Если ты поможешь мне, я помогу тебе."
+          }
+        ]
+      },
+      {
+        "title": "When, As soon as, Unless",
+        "content": "Вместо If можно использовать другие союзы. После них тоже не ставится WILL. Unless означает 'если не'.",
+        "examples": [
+          {
+            "en": "I will call you when I arrive.",
+            "ru": "Я позвоню тебе, когда приеду."
+          },
+          {
+            "en": "You will fail unless you study.",
+            "ru": "Ты провалишься, если не будешь учиться."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Если пойдет дождь, я останусь дома.",
+        "words": [
+          "If",
+          "it",
+          "rains",
+          "I",
+          "will",
+          "stay",
+          "at",
+          "home",
+          "rain",
+          "am"
+        ],
+        "accepted_answers": [
+          "If it rains I will stay at home"
+        ]
+      },
+      {
+        "prompt": "Если ты нагреешь лед, он тает.",
+        "words": [
+          "If",
+          "you",
+          "heat",
+          "ice",
+          "it",
+          "melts",
+          "will",
+          "melt"
+        ],
+        "accepted_answers": [
+          "If you heat ice it melts"
+        ]
+      },
+      {
+        "prompt": "Я позвоню тебе, когда приеду.",
+        "words": [
+          "I",
+          "will",
+          "call",
+          "you",
+          "when",
+          "I",
+          "arrive",
+          "will",
+          "arrives"
+        ],
+        "accepted_answers": [
+          "I will call you when I arrive"
+        ]
+      },
+      {
+        "prompt": "Если ты не поторопишься, мы опоздаем.",
+        "words": [
+          "If",
+          "you",
+          "don't",
+          "hurry",
+          "we",
+          "will",
+          "be",
+          "late",
+          "won't",
+          "are"
+        ],
+        "accepted_answers": [
+          "If you don't hurry we will be late"
+        ]
+      },
+      {
+        "prompt": "Ты не пройдешь тест, если не будешь учиться.",
+        "words": [
+          "You",
+          "will",
+          "not",
+          "pass",
+          "the",
+          "test",
+          "unless",
+          "you",
+          "study",
+          "don't"
+        ],
+        "accepted_answers": [
+          "You will not pass the test unless you study"
+        ]
+      },
+      {
+        "prompt": "Как только он придет, мы начнем.",
+        "words": [
+          "As",
+          "soon",
+          "as",
+          "he",
+          "comes",
+          "we",
+          "will",
+          "start",
+          "come",
+          "will"
+        ],
+        "accepted_answers": [
+          "As soon as he comes we will start"
+        ]
+      },
+      {
+        "prompt": "Если я увижу ее, я скажу ей.",
+        "words": [
+          "If",
+          "I",
+          "see",
+          "her",
+          "I",
+          "will",
+          "tell",
+          "her",
+          "will",
+          "sees"
+        ],
+        "accepted_answers": [
+          "If I see her I will tell her"
+        ]
+      },
+      {
+        "prompt": "Она разозлится, если ты забудешь.",
+        "words": [
+          "She",
+          "will",
+          "be",
+          "angry",
+          "if",
+          "you",
+          "forget",
+          "will",
+          "forgets"
+        ],
+        "accepted_answers": [
+          "She will be angry if you forget"
+        ]
+      },
+      {
+        "prompt": "Если ты смешаешь синий и желтый, ты получишь зеленый.",
+        "words": [
+          "If",
+          "you",
+          "mix",
+          "blue",
+          "and",
+          "yellow",
+          "you",
+          "get",
+          "green",
+          "will"
+        ],
+        "accepted_answers": [
+          "If you mix blue and yellow you get green"
+        ]
+      },
+      {
+        "prompt": "Что ты будешь делать, если потеряешь работу?",
+        "words": [
+          "What",
+          "will",
+          "you",
+          "do",
+          "if",
+          "you",
+          "lose",
+          "your",
+          "job",
+          "will"
+        ],
+        "accepted_answers": [
+          "What will you do if you lose your job"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "If I have time, I will help you.",
+        "options": [
+          "Если у меня будет время, я помогу тебе.",
+          "Если у меня было время, я бы помог тебе.",
+          "Когда у меня есть время, я помогаю тебе.",
+          "Если бы у меня было время, я бы помог."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Water boils if you heat it to 100 degrees.",
+        "options": [
+          "Вода кипит, если нагреть ее до 100 градусов.",
+          "Вода закипит, если нагреть ее до 100 градусов.",
+          "Вода кипела, если нагревали ее до 100 градусов.",
+          "Если вода кипит, там 100 градусов."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I will wait here until she comes.",
+        "options": [
+          "Я буду ждать здесь, пока она не придет.",
+          "Я подожду здесь, когда она придет.",
+          "Я ждал здесь, пока она приходила.",
+          "Я не буду ждать ее прихода."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Unless you hurry, you will miss the bus.",
+        "options": [
+          "Если ты не поторопишься, ты опоздаешь на автобус.",
+          "Если ты поторопишься, ты не опоздаешь.",
+          "Пока ты торопишься, ты успеешь на автобус.",
+          "Если ты не опоздаешь на автобус, поторопись."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "If he doesn't call, I will go without him.",
+        "options": [
+          "Если он не позвонит, я пойду без него.",
+          "Если он позвонит, я пойду с ним.",
+          "Если он не позвонил, я пошел без него.",
+          "Я пойду без него, даже если он позвонит."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "As soon as I know, I will tell you.",
+        "options": [
+          "Как только я узнаю, я скажу тебе.",
+          "Если я узнаю, я скажу тебе.",
+          "Когда я узнал, я сказал тебе.",
+          "Я не скажу тебе, даже если узнаю."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "If you touch fire, you get burned.",
+        "options": [
+          "Если ты трогаешь огонь, ты обжигаешься.",
+          "Если ты тронешь огонь, ты обожжешься.",
+          "Если бы ты тронул огонь, ты бы обжегся.",
+          "Не трогай огонь, чтобы не обжечься."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She won't talk to you if you do that.",
+        "options": [
+          "Она не будет говорить с тобой, если ты это сделаешь.",
+          "Она не говорила с тобой, если ты это делал.",
+          "Она бы не говорила с тобой, если бы ты это сделал.",
+          "Она не хочет с тобой говорить."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "What will happen if they don't agree?",
+        "options": [
+          "Что произойдет, если они не согласятся?",
+          "Что происходило, когда они не соглашались?",
+          "Что бы произошло, если бы они не согласились?",
+          "Они не согласны."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I will buy it if it is cheap.",
+        "options": [
+          "Я куплю это, если это будет дешево.",
+          "Я покупаю это, потому что это дешево.",
+          "Я бы купил это, если бы это было дешево.",
+          "Я куплю это, даже если это дорого."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "If it ___, we will stay inside.",
+        "options": [
+          "rains",
+          "rain",
+          "will rain",
+          "is raining"
+        ],
+        "correct": 0,
+        "explanation": "В First Conditional в придаточной части (после If) используется Present Simple (rains), а не will."
+      },
+      {
+        "sentence": "I ___ tell him the news when I see him.",
+        "options": [
+          "will",
+          "would",
+          "do",
+          "am"
+        ],
+        "correct": 0,
+        "explanation": "В главной части условного предложения 1-го типа используется will."
+      },
+      {
+        "sentence": "If you heat ice, it ___.",
+        "options": [
+          "melts",
+          "will melt",
+          "melt",
+          "melted"
+        ],
+        "correct": 0,
+        "explanation": "Закон природы (Zero Conditional). В обеих частях используется Present Simple."
+      },
+      {
+        "sentence": "We will be late ___ we hurry.",
+        "options": [
+          "unless",
+          "if",
+          "when",
+          "while"
+        ],
+        "correct": 0,
+        "explanation": "По смыслу подходит 'если не' (unless). Мы опоздаем, если НЕ поторопимся."
+      },
+      {
+        "sentence": "As soon as she ___, we will start dinner.",
+        "options": [
+          "arrives",
+          "arrive",
+          "will arrive",
+          "arrived"
+        ],
+        "correct": 0,
+        "explanation": "После as soon as (как только) используется Present Simple для будущего времени."
+      },
+      {
+        "sentence": "If I ___ time tomorrow, I will visit you.",
+        "options": [
+          "have",
+          "will have",
+          "had",
+          "has"
+        ],
+        "correct": 0,
+        "explanation": "После if используется Present Simple (have), даже если речь идет о завтрашнем дне."
+      },
+      {
+        "sentence": "She will be angry if you ___ her birthday.",
+        "options": [
+          "forget",
+          "will forget",
+          "forgot",
+          "forgets"
+        ],
+        "correct": 0,
+        "explanation": "После if используется Present Simple (forget)."
+      },
+      {
+        "sentence": "I won't go out if it ___ raining.",
+        "options": [
+          "is",
+          "will be",
+          "was",
+          "be"
+        ],
+        "correct": 0,
+        "explanation": "После if используется настоящее время (is)."
+      },
+      {
+        "sentence": "What ___ you do if you fail the test?",
+        "options": [
+          "will",
+          "do",
+          "would",
+          "are"
+        ],
+        "correct": 0,
+        "explanation": "В главной части вопроса используется will."
+      },
+      {
+        "sentence": "If you mix red and white, you ___ pink.",
+        "options": [
+          "get",
+          "will get",
+          "got",
+          "gets"
+        ],
+        "correct": 0,
+        "explanation": "Факт (Zero Conditional). Обе части в Present Simple."
+      }
+    ]
+  }
+}

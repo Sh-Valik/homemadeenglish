@@ -1,0 +1,483 @@
+{
+  "id": "present_simple",
+  "title": "Present Simple",
+  "title_ru": "Настоящее простое время",
+  "icon": "🚀",
+  "level": 1,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое Present Simple?",
+        "content": "Present Simple (настоящее простое время) — одно из самых часто используемых времён в английском языке. Оно описывает действия, которые происходят регулярно, постоянно или являются общеизвестными фактами.\n\nМы используем Present Simple, когда говорим о:\n• Привычках и повторяющихся действиях (I drink coffee every morning)\n• Общих истинах и фактах (The sun rises in the east)\n• Расписаниях (The train leaves at 9 AM)\n• Постоянных состояниях (She lives in Moscow)",
+        "examples": [
+          {
+            "en": "I work every day.",
+            "ru": "Я работаю каждый день."
+          },
+          {
+            "en": "She likes coffee.",
+            "ru": "Она любит кофе."
+          },
+          {
+            "en": "They play football on Sundays.",
+            "ru": "Они играют в футбол по воскресеньям."
+          }
+        ]
+      },
+      {
+        "title": "Формула утвердительного предложения",
+        "content": "Утвердительное предложение строится по простой формуле. Для he/she/it к глаголу добавляется -s или -es.",
+        "formula": "I / You / We / They + V1\nHe / She / It + V1 + s(es)",
+        "examples": [
+          {
+            "en": "I read books.",
+            "ru": "Я читаю книги."
+          },
+          {
+            "en": "He reads books.",
+            "ru": "Он читает книги."
+          },
+          {
+            "en": "She watches TV.",
+            "ru": "Она смотрит телевизор."
+          }
+        ],
+        "tip": "Окончание -es добавляется к глаголам на -s, -ss, -sh, -ch, -x, -o: watches, goes, misses."
+      },
+      {
+        "title": "Отрицательные предложения",
+        "content": "Для отрицания используется do/does + not. Сокращённо: don't и doesn't. После doesn't глагол без -s!",
+        "formula": "I / You / We / They + don't + V1\nHe / She / It + doesn't + V1",
+        "examples": [
+          {
+            "en": "I don't like fish.",
+            "ru": "Я не люблю рыбу."
+          },
+          {
+            "en": "She doesn't speak French.",
+            "ru": "Она не говорит по-французски."
+          }
+        ],
+        "tip": "Ошибка: She doesn't likes ❌ → She doesn't like ✅"
+      },
+      {
+        "title": "Вопросительные предложения",
+        "content": "Для вопросов do/does ставится перед подлежащим. В вопросах с does глагол без -s.",
+        "formula": "Do + I / you / we / they + V1?\nDoes + he / she / it + V1?",
+        "examples": [
+          {
+            "en": "Do you speak English?",
+            "ru": "Ты говоришь по-английски?"
+          },
+          {
+            "en": "Does she work here?",
+            "ru": "Она работает здесь?"
+          }
+        ]
+      },
+      {
+        "title": "Слова-маркеры",
+        "content": "Эти слова часто указывают на Present Simple: always (всегда), usually (обычно), often (часто), sometimes (иногда), rarely (редко), never (никогда), every day/week/month.",
+        "examples": [
+          {
+            "en": "I always wake up at 7.",
+            "ru": "Я всегда просыпаюсь в 7."
+          },
+          {
+            "en": "She never eats meat.",
+            "ru": "Она никогда не ест мясо."
+          }
+        ],
+        "tip": "Наречия частотности ставятся ПЕРЕД глаголом, но ПОСЛЕ to be: She always reads. / She is always happy."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я играю в футбол каждый день.",
+        "words": [
+          "I",
+          "play",
+          "football",
+          "every",
+          "day",
+          "am",
+          "playing",
+          "plays"
+        ],
+        "accepted_answers": [
+          "I play football every day"
+        ]
+      },
+      {
+        "prompt": "Она работает в офисе.",
+        "words": [
+          "She",
+          "works",
+          "in",
+          "an",
+          "office",
+          "work",
+          "the",
+          "at"
+        ],
+        "accepted_answers": [
+          "She works in an office"
+        ]
+      },
+      {
+        "prompt": "Они не говорят по-английски.",
+        "words": [
+          "They",
+          "don't",
+          "speak",
+          "English",
+          "doesn't",
+          "speaks",
+          "not"
+        ],
+        "accepted_answers": [
+          "They don't speak English"
+        ]
+      },
+      {
+        "prompt": "Он встаёт рано каждое утро.",
+        "words": [
+          "He",
+          "gets",
+          "up",
+          "early",
+          "every",
+          "morning",
+          "get",
+          "got"
+        ],
+        "accepted_answers": [
+          "He gets up early every morning"
+        ]
+      },
+      {
+        "prompt": "Мы любим путешествовать.",
+        "words": [
+          "We",
+          "like",
+          "to",
+          "travel",
+          "likes",
+          "traveling",
+          "are"
+        ],
+        "accepted_answers": [
+          "We like to travel"
+        ]
+      },
+      {
+        "prompt": "Ты знаешь этот город?",
+        "words": [
+          "Do",
+          "you",
+          "know",
+          "this",
+          "city",
+          "Does",
+          "knew",
+          "that"
+        ],
+        "accepted_answers": [
+          "Do you know this city"
+        ]
+      },
+      {
+        "prompt": "Мой брат учится в университете.",
+        "words": [
+          "My",
+          "brother",
+          "studies",
+          "at",
+          "university",
+          "study",
+          "in"
+        ],
+        "accepted_answers": [
+          "My brother studies at university"
+        ]
+      },
+      {
+        "prompt": "Кошки не любят воду.",
+        "words": [
+          "Cats",
+          "don't",
+          "like",
+          "water",
+          "doesn't",
+          "likes",
+          "the"
+        ],
+        "accepted_answers": [
+          "Cats don't like water"
+        ]
+      },
+      {
+        "prompt": "Солнце встаёт на востоке.",
+        "words": [
+          "The",
+          "sun",
+          "rises",
+          "in",
+          "the",
+          "east",
+          "rise",
+          "on"
+        ],
+        "accepted_answers": [
+          "The sun rises in the east"
+        ]
+      },
+      {
+        "prompt": "Она часто читает книги.",
+        "words": [
+          "She",
+          "often",
+          "reads",
+          "books",
+          "read",
+          "reading",
+          "always"
+        ],
+        "accepted_answers": [
+          "She often reads books"
+        ]
+      },
+      {
+        "prompt": "Он не пьёт кофе.",
+        "words": [
+          "He",
+          "doesn't",
+          "drink",
+          "coffee",
+          "don't",
+          "drinks",
+          "tea"
+        ],
+        "accepted_answers": [
+          "He doesn't drink coffee"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "She reads books in the evening.",
+        "options": [
+          "Она читает книги вечером.",
+          "Она читала книги вечером.",
+          "Она будет читать книги вечером.",
+          "Она читает книгу вечером."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They don't watch TV on weekdays.",
+        "options": [
+          "Они не смотрят телевизор по будням.",
+          "Они не смотрели телевизор по будням.",
+          "Они не смотрят телевизор в выходные.",
+          "Они смотрят телевизор по будням."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Does he speak German?",
+        "options": [
+          "Он говорит по-немецки?",
+          "Он говорил по-немецки?",
+          "Он будет говорить по-немецки?",
+          "Он не говорит по-немецки."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I always wake up at seven.",
+        "options": [
+          "Я всегда просыпаюсь в семь.",
+          "Я всегда просыпался в семь.",
+          "Я обычно просыпаюсь в семь.",
+          "Я никогда не просыпаюсь в семь."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Water boils at 100 degrees.",
+        "options": [
+          "Вода кипит при 100 градусах.",
+          "Вода кипела при 100 градусах.",
+          "Вода закипит при 100 градусах.",
+          "Вода не кипит при 100 градусах."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "My parents live in a small town.",
+        "options": [
+          "Мои родители живут в маленьком городе.",
+          "Мои родители жили в маленьком городе.",
+          "Мои родители живут в большом городе.",
+          "Мой родитель живёт в маленьком городе."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He usually goes to the gym after work.",
+        "options": [
+          "Он обычно ходит в спортзал после работы.",
+          "Он иногда ходит в спортзал после работы.",
+          "Он ходил в спортзал после работы.",
+          "Он обычно ходит в спортзал до работы."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We never eat fast food.",
+        "options": [
+          "Мы никогда не едим фаст-фуд.",
+          "Мы всегда едим фаст-фуд.",
+          "Мы никогда не ели фаст-фуд.",
+          "Мы редко едим фаст-фуд."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The train leaves at 8 o'clock.",
+        "options": [
+          "Поезд отправляется в 8 часов.",
+          "Поезд отправился в 8 часов.",
+          "Поезд отправится в 8 часов.",
+          "Поезд опаздывает на 8 часов."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She doesn't like cold weather.",
+        "options": [
+          "Она не любит холодную погоду.",
+          "Она любит холодную погоду.",
+          "Она не любила холодную погоду.",
+          "Ей не нравилась холодная погода."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "He ___ to school every morning.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "went"
+        ],
+        "correct": 1,
+        "explanation": "He + V(s/es) в Present Simple."
+      },
+      {
+        "sentence": "They ___ football on Saturdays.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "correct": 1,
+        "explanation": "They + V1 без окончания."
+      },
+      {
+        "sentence": "She ___ speak Chinese.",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't",
+          "not"
+        ],
+        "correct": 1,
+        "explanation": "She + doesn't + V1."
+      },
+      {
+        "sentence": "___ you like pizza?",
+        "options": [
+          "Does",
+          "Do",
+          "Are",
+          "Is"
+        ],
+        "correct": 1,
+        "explanation": "Do + you для вопросов."
+      },
+      {
+        "sentence": "My sister ___ in a hospital.",
+        "options": [
+          "work",
+          "works",
+          "working",
+          "is work"
+        ],
+        "correct": 1,
+        "explanation": "My sister = She → V + s."
+      },
+      {
+        "sentence": "I usually ___ coffee in the morning.",
+        "options": [
+          "drinks",
+          "drink",
+          "drinking",
+          "drank"
+        ],
+        "correct": 1,
+        "explanation": "I + V1 без окончания."
+      },
+      {
+        "sentence": "The shop ___ at 9 AM.",
+        "options": [
+          "open",
+          "opens",
+          "opening",
+          "opened"
+        ],
+        "correct": 1,
+        "explanation": "The shop = It → V + s."
+      },
+      {
+        "sentence": "We ___ live in this city.",
+        "options": [
+          "doesn't",
+          "don't",
+          "isn't",
+          "aren't"
+        ],
+        "correct": 1,
+        "explanation": "We + don't + V1."
+      },
+      {
+        "sentence": "___ she know the answer?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Has"
+        ],
+        "correct": 1,
+        "explanation": "Does + she + V1."
+      },
+      {
+        "sentence": "He always ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "correct": 1,
+        "explanation": "He + V(s/es) = does."
+      }
+    ]
+  }
+}

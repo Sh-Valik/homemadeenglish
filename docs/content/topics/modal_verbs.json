@@ -1,0 +1,477 @@
+{
+  "id": "modal_verbs",
+  "title": "Modal Verbs",
+  "title_ru": "Модальные глаголы",
+  "icon": "💪",
+  "level": 7,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое модальные глаголы?",
+        "content": "Модальные глаголы — это особые глаголы, которые выражают не действие, а отношение к действию: возможность, необходимость, разрешение, запрет, совет.\n\nОсобенности:\n• После них глагол стоит без to (кроме have to, ought to)\n• Не изменяются по лицам (no -s для he/she/it)\n• Не имеют формы будущего или прошедшего времени (используются заменители)",
+        "examples": [
+          {
+            "en": "I can swim.",
+            "ru": "Я умею плавать."
+          },
+          {
+            "en": "You must study.",
+            "ru": "Ты должен учиться."
+          },
+          {
+            "en": "She should rest.",
+            "ru": "Ей следует отдохнуть."
+          }
+        ]
+      },
+      {
+        "title": "CAN / CAN'T — умение и возможность",
+        "content": "Can — могу, умею (способность, возможность, разрешение).\nCan't — не могу, не умею.\n\nВ прошедшем: could / couldn't.\nДля будущего: will be able to.",
+        "formula": "Subject + can + V1\nSubject + can't + V1\nCan + subject + V1?",
+        "examples": [
+          {
+            "en": "I can drive a car.",
+            "ru": "Я умею водить машину."
+          },
+          {
+            "en": "She can't cook.",
+            "ru": "Она не умеет готовить."
+          },
+          {
+            "en": "Can you help me?",
+            "ru": "Ты можешь мне помочь?"
+          }
+        ]
+      },
+      {
+        "title": "MUST / HAVE TO — обязанность",
+        "content": "Must — должен (внутреннее убеждение, строгое правило).\nHave to — вынужден (внешняя необходимость).\nMustn't — нельзя (запрет).\nDon't have to — не обязательно.",
+        "examples": [
+          {
+            "en": "You must wear a seatbelt.",
+            "ru": "Ты должен пристегнуться. (правило)"
+          },
+          {
+            "en": "I have to wake up early.",
+            "ru": "Мне приходится вставать рано. (необходимость)"
+          },
+          {
+            "en": "You mustn't smoke here.",
+            "ru": "Здесь нельзя курить. (запрет)"
+          },
+          {
+            "en": "You don't have to come.",
+            "ru": "Тебе не обязательно приходить."
+          }
+        ],
+        "tip": "mustn't = запрет, don't have to = необязательно. Это разные вещи!"
+      },
+      {
+        "title": "SHOULD / SHOULDN'T — совет",
+        "content": "Should — следует, стоит (совет, рекомендация).\nShouldn't — не следует, не стоит.",
+        "examples": [
+          {
+            "en": "You should see a doctor.",
+            "ru": "Тебе следует обратиться к врачу."
+          },
+          {
+            "en": "She shouldn't eat so much sugar.",
+            "ru": "Ей не стоит есть так много сахара."
+          },
+          {
+            "en": "Should I call her?",
+            "ru": "Мне позвонить ей?"
+          }
+        ]
+      },
+      {
+        "title": "MAY / MIGHT — вероятность",
+        "content": "May — может быть, возможно (более вероятно).\nMight — может быть (менее вероятно).\nMay I...? — вежливая просьба (можно ли мне...).",
+        "examples": [
+          {
+            "en": "It may rain tomorrow.",
+            "ru": "Возможно, завтра будет дождь."
+          },
+          {
+            "en": "She might come later.",
+            "ru": "Она, может быть, придёт позже."
+          },
+          {
+            "en": "May I come in?",
+            "ru": "Можно войти?"
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я умею плавать.",
+        "words": [
+          "I",
+          "can",
+          "swim",
+          "could",
+          "swimming",
+          "to",
+          "am"
+        ],
+        "accepted_answers": [
+          "I can swim"
+        ]
+      },
+      {
+        "prompt": "Ты должен учиться.",
+        "words": [
+          "You",
+          "must",
+          "study",
+          "should",
+          "can",
+          "to",
+          "studies"
+        ],
+        "accepted_answers": [
+          "You must study"
+        ]
+      },
+      {
+        "prompt": "Она не умеет готовить.",
+        "words": [
+          "She",
+          "can't",
+          "cook",
+          "doesn't",
+          "cooking",
+          "can",
+          "not"
+        ],
+        "accepted_answers": [
+          "She can't cook"
+        ]
+      },
+      {
+        "prompt": "Тебе следует обратиться к врачу.",
+        "words": [
+          "You",
+          "should",
+          "see",
+          "a",
+          "doctor",
+          "must",
+          "can",
+          "the"
+        ],
+        "accepted_answers": [
+          "You should see a doctor"
+        ]
+      },
+      {
+        "prompt": "Здесь нельзя курить.",
+        "words": [
+          "You",
+          "mustn't",
+          "smoke",
+          "here",
+          "can't",
+          "don't",
+          "smoking"
+        ],
+        "accepted_answers": [
+          "You mustn't smoke here"
+        ]
+      },
+      {
+        "prompt": "Можно войти?",
+        "words": [
+          "May",
+          "I",
+          "come",
+          "in",
+          "Can",
+          "Do",
+          "goes"
+        ],
+        "accepted_answers": [
+          "May I come in"
+        ]
+      },
+      {
+        "prompt": "Ты можешь мне помочь?",
+        "words": [
+          "Can",
+          "you",
+          "help",
+          "me",
+          "Do",
+          "must",
+          "helps"
+        ],
+        "accepted_answers": [
+          "Can you help me"
+        ]
+      },
+      {
+        "prompt": "Ей не стоит есть так много.",
+        "words": [
+          "She",
+          "shouldn't",
+          "eat",
+          "so",
+          "much",
+          "should",
+          "can't"
+        ],
+        "accepted_answers": [
+          "She shouldn't eat so much"
+        ]
+      },
+      {
+        "prompt": "Мне приходится работать по субботам.",
+        "words": [
+          "I",
+          "have",
+          "to",
+          "work",
+          "on",
+          "Saturdays",
+          "must",
+          "can"
+        ],
+        "accepted_answers": [
+          "I have to work on Saturdays"
+        ]
+      },
+      {
+        "prompt": "Возможно, завтра будет дождь.",
+        "words": [
+          "It",
+          "may",
+          "rain",
+          "tomorrow",
+          "might",
+          "will",
+          "rains"
+        ],
+        "accepted_answers": [
+          "It may rain tomorrow"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "You must wear a helmet.",
+        "options": [
+          "Ты должен носить шлем.",
+          "Тебе следует носить шлем.",
+          "Ты можешь носить шлем.",
+          "Ты не должен носить шлем."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She can play the piano.",
+        "options": [
+          "Она умеет играть на пианино.",
+          "Она должна играть на пианино.",
+          "Она играет на пианино.",
+          "Она может играть (разрешение)."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "You shouldn't stay up late.",
+        "options": [
+          "Тебе не следует ложиться поздно.",
+          "Ты не можешь ложиться поздно.",
+          "Тебе нельзя ложиться поздно.",
+          "Тебе следует ложиться поздно."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He might be at home.",
+        "options": [
+          "Он, возможно, дома.",
+          "Он точно дома.",
+          "Он должен быть дома.",
+          "Он не дома."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "You don't have to wait.",
+        "options": [
+          "Тебе не обязательно ждать.",
+          "Тебе нельзя ждать.",
+          "Ты не должен ждать.",
+          "Ты не можешь ждать."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Can I use your phone?",
+        "options": [
+          "Можно воспользоваться твоим телефоном?",
+          "Я использую твой телефон.",
+          "Я должен взять телефон.",
+          "Ты пользуешься телефоном?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She must be tired after work.",
+        "options": [
+          "Она, должно быть, устала после работы.",
+          "Она должна устать.",
+          "Она устала после работы.",
+          "Она не устала."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "You should drink more water.",
+        "options": [
+          "Тебе следует пить больше воды.",
+          "Ты должен пить больше воды.",
+          "Ты можешь пить больше воды.",
+          "Ты пьёшь больше воды."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I couldn't sleep last night.",
+        "options": [
+          "Я не мог уснуть прошлой ночью.",
+          "Я не сплю ночью.",
+          "Я не буду спать ночью.",
+          "Мне не нужно спать."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "May I ask you a question?",
+        "options": [
+          "Можно задать вам вопрос?",
+          "Я задаю вопрос.",
+          "Мне нужно задать вопрос.",
+          "Ты задашь вопрос?"
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "You ___ drive without a license.",
+        "options": [
+          "can",
+          "mustn't",
+          "should",
+          "have to"
+        ],
+        "correct": 1,
+        "explanation": "mustn't — запрет."
+      },
+      {
+        "sentence": "She ___ speak three languages.",
+        "options": [
+          "must",
+          "can",
+          "should",
+          "has to"
+        ],
+        "correct": 1,
+        "explanation": "can — умение."
+      },
+      {
+        "sentence": "You ___ see a dentist.",
+        "options": [
+          "can",
+          "should",
+          "mustn't",
+          "can't"
+        ],
+        "correct": 1,
+        "explanation": "should — совет."
+      },
+      {
+        "sentence": "I ___ to get up early for work.",
+        "options": [
+          "must",
+          "have",
+          "can",
+          "should"
+        ],
+        "correct": 1,
+        "explanation": "have to — вынужден."
+      },
+      {
+        "sentence": "___ I open the window?",
+        "options": [
+          "Must",
+          "May",
+          "Have",
+          "Do"
+        ],
+        "correct": 1,
+        "explanation": "May I — вежливая просьба."
+      },
+      {
+        "sentence": "You ___ eat in the library.",
+        "options": [
+          "should",
+          "mustn't",
+          "have to",
+          "can"
+        ],
+        "correct": 1,
+        "explanation": "mustn't — нельзя, запрет."
+      },
+      {
+        "sentence": "He ___ be at home, I'm not sure.",
+        "options": [
+          "must",
+          "might",
+          "should",
+          "has to"
+        ],
+        "correct": 1,
+        "explanation": "might — неуверенное предположение."
+      },
+      {
+        "sentence": "You ___ have to come if you're busy.",
+        "options": [
+          "mustn't",
+          "don't",
+          "can't",
+          "shouldn't"
+        ],
+        "correct": 1,
+        "explanation": "don't have to — необязательно."
+      },
+      {
+        "sentence": "___ you swim when you were five?",
+        "options": [
+          "Can",
+          "Could",
+          "May",
+          "Must"
+        ],
+        "correct": 1,
+        "explanation": "Could — can в прошедшем."
+      },
+      {
+        "sentence": "You ___ be more careful.",
+        "options": [
+          "can",
+          "should",
+          "mustn't",
+          "might"
+        ],
+        "correct": 1,
+        "explanation": "should — совет."
+      }
+    ]
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "id": "countable_uncountable",
+  "title": "Countable & Uncountable",
+  "title_ru": "Исчисляемые и неисчисляемые существительные",
+  "icon": "🥛",
+  "level": 13,
+  "theory": {
+    "sections": [
+      {
+        "title": "В чем разница?",
+        "content": "Исчисляемые существительные (Countable) можно посчитать (one apple, two apples). У них есть единственное и множественное число. Неисчисляемые (Uncountable) нельзя посчитать штуками (water, money, information). Они всегда в единственном числе.",
+        "examples": [
+          {
+            "en": "Countable: a car, three cars, a book, many books.",
+            "ru": "машина, три машины, книга, много книг."
+          },
+          {
+            "en": "Uncountable: water, air, time, money, music, advice.",
+            "ru": "вода, воздух, время, деньги, музыка, совет."
+          }
+        ]
+      },
+      {
+        "title": "Много: Much vs Many",
+        "content": "Many используется с исчисляемыми существительными (множественное число). Much используется с неисчисляемыми.",
+        "formula": "many books, many cars // much money, much time",
+        "examples": [
+          {
+            "en": "I don't have many friends.",
+            "ru": "У меня не много друзей."
+          },
+          {
+            "en": "How much water do you drink?",
+            "ru": "Сколько воды ты пьешь?"
+          }
+        ],
+        "tip": "Слово 'a lot of' (много) универсально и может использоваться как с исчисляемыми, так и с неисчисляемыми: a lot of friends, a lot of time."
+      },
+      {
+        "title": "Несколько / Немного: Some vs Any, A few vs A little",
+        "content": "Some (утверждения) и Any (вопросы/отрицания) значат 'какое-то количество'. A few (исчисляемые) и A little (неисчисляемые) значат 'немного, но достаточно'.",
+        "examples": [
+          {
+            "en": "I have some apples. Do you have any apples?",
+            "ru": "У меня есть немного яблок. У тебя есть яблоки?"
+          },
+          {
+            "en": "I need a little milk and a few eggs.",
+            "ru": "Мне нужно немного молока и несколько яиц."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "У меня нет много времени.",
+        "words": [
+          "I",
+          "don't",
+          "have",
+          "much",
+          "time",
+          "many"
+        ],
+        "accepted_answers": [
+          "I don't have much time"
+        ]
+      },
+      {
+        "prompt": "Сколько у тебя друзей?",
+        "words": [
+          "How",
+          "many",
+          "friends",
+          "do",
+          "you",
+          "have",
+          "much"
+        ],
+        "accepted_answers": [
+          "How many friends do you have"
+        ]
+      },
+      {
+        "prompt": "Мне нужно немного воды.",
+        "words": [
+          "I",
+          "need",
+          "a",
+          "little",
+          "water",
+          "few",
+          "some"
+        ],
+        "accepted_answers": [
+          "I need a little water"
+        ]
+      },
+      {
+        "prompt": "У нас есть несколько яблок.",
+        "words": [
+          "We",
+          "have",
+          "a",
+          "few",
+          "apples",
+          "little",
+          "much"
+        ],
+        "accepted_answers": [
+          "We have a few apples"
+        ]
+      },
+      {
+        "prompt": "У тебя есть какие-нибудь вопросы?",
+        "words": [
+          "Do",
+          "you",
+          "have",
+          "any",
+          "questions",
+          "some",
+          "much"
+        ],
+        "accepted_answers": [
+          "Do you have any questions"
+        ]
+      },
+      {
+        "prompt": "Я хочу немного молока.",
+        "words": [
+          "I",
+          "want",
+          "some",
+          "milk",
+          "any",
+          "many"
+        ],
+        "accepted_answers": [
+          "I want some milk"
+        ]
+      },
+      {
+        "prompt": "У нее много денег.",
+        "words": [
+          "She",
+          "has",
+          "a",
+          "lot",
+          "of",
+          "money",
+          "many",
+          "much"
+        ],
+        "accepted_answers": [
+          "She has a lot of money"
+        ]
+      },
+      {
+        "prompt": "В комнате много людей.",
+        "words": [
+          "There",
+          "are",
+          "many",
+          "people",
+          "in",
+          "the",
+          "room",
+          "much"
+        ],
+        "accepted_answers": [
+          "There are many people in the room"
+        ]
+      },
+      {
+        "prompt": "У меня нет информации.",
+        "words": [
+          "I",
+          "don't",
+          "have",
+          "any",
+          "information",
+          "some",
+          "many"
+        ],
+        "accepted_answers": [
+          "I don't have any information"
+        ]
+      },
+      {
+        "prompt": "Она дала мне хороший совет.",
+        "words": [
+          "She",
+          "gave",
+          "me",
+          "some",
+          "good",
+          "advice",
+          "a",
+          "an"
+        ],
+        "accepted_answers": [
+          "She gave me some good advice"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "How much money do you need?",
+        "options": [
+          "Сколько денег тебе нужно?",
+          "Как много денег ты хочешь?",
+          "Сколько денег у тебя есть?",
+          "Где твои деньги?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I bought a few books.",
+        "options": [
+          "Я купил несколько книг.",
+          "Я купил мало книг.",
+          "Я купил много книг.",
+          "Я купил одну книгу."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "There isn't much coffee left.",
+        "options": [
+          "Осталось не так много кофе.",
+          "Кофе совсем не осталось.",
+          "Осталось много кофе.",
+          "Нет больше кофе."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Do you want some tea?",
+        "options": [
+          "Хочешь (немного) чая?",
+          "Ты любишь чай?",
+          "Будешь чай сейчас?",
+          "Сколько чая ты хочешь?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I don't have any questions.",
+        "options": [
+          "У меня нет никаких вопросов.",
+          "У меня есть несколько вопросов.",
+          "Я не задаю вопросов.",
+          "У меня нет одного вопроса."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She has a lot of patience.",
+        "options": [
+          "У нее много терпения.",
+          "Она очень терпеливая.",
+          "Она пациентка.",
+          "Она мало терпит."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We have very little time.",
+        "options": [
+          "У нас очень мало времени.",
+          "У нас есть немного времени.",
+          "У нас совсем нет времени.",
+          "У нас много времени."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "How many cars are there?",
+        "options": [
+          "Сколько там машин?",
+          "Как много машин там?",
+          "Где машины?",
+          "Чьи это машины?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I need a little help.",
+        "options": [
+          "Мне нужна небольшая помощь.",
+          "Мне не нужна помощь.",
+          "Мне нужна помощь.",
+          "Я могу помочь немного."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "There is some milk in the fridge.",
+        "options": [
+          "В холодильнике есть немного молока.",
+          "В холодильнике много молока.",
+          "В холодильнике нет молока.",
+          "Где молоко?"
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "How ___ brothers do you have?",
+        "options": [
+          "much",
+          "many",
+          "some",
+          "any"
+        ],
+        "correct": 1,
+        "explanation": "Brothers — исчисляемое (можно посчитать: 1, 2, 3 брата), используем many."
+      },
+      {
+        "sentence": "How ___ time do we have before the train leaves?",
+        "options": [
+          "much",
+          "many",
+          "some",
+          "any"
+        ],
+        "correct": 0,
+        "explanation": "Time (время) — неисчисляемое, используем much."
+      },
+      {
+        "sentence": "Can I have ___ water, please?",
+        "options": [
+          "some",
+          "any",
+          "many",
+          "few"
+        ],
+        "correct": 0,
+        "explanation": "В вопросах-просьбах используется some, а не any."
+      },
+      {
+        "sentence": "I don't have ___ money with me.",
+        "options": [
+          "some",
+          "any",
+          "many",
+          "few"
+        ],
+        "correct": 1,
+        "explanation": "В отрицаниях используется any (никакой/каких-либо)."
+      },
+      {
+        "sentence": "She has a ___ close friends.",
+        "options": [
+          "few",
+          "little",
+          "much",
+          "some"
+        ],
+        "correct": 0,
+        "explanation": "Friends — исчисляемое, поэтому 'несколько' будет 'a few'."
+      },
+      {
+        "sentence": "I speak a ___ Spanish.",
+        "options": [
+          "little",
+          "few",
+          "many",
+          "any"
+        ],
+        "correct": 0,
+        "explanation": "Spanish (язык) нельзя посчитать, используем 'a little' (немного)."
+      },
+      {
+        "sentence": "There are a ___ of people in the park today.",
+        "options": [
+          "lot",
+          "lots",
+          "many",
+          "much"
+        ],
+        "correct": 0,
+        "explanation": "Фраза звучит как 'a lot of' (много)."
+      },
+      {
+        "sentence": "Did you take ___ photos on holiday?",
+        "options": [
+          "any",
+          "some",
+          "much",
+          "little"
+        ],
+        "correct": 0,
+        "explanation": "В обычных вопросах используется any."
+      },
+      {
+        "sentence": "We don't need ___ help.",
+        "options": [
+          "any",
+          "some",
+          "many",
+          "few"
+        ],
+        "correct": 0,
+        "explanation": "В отрицаниях используется any."
+      },
+      {
+        "sentence": "There is too ___ traffic today.",
+        "options": [
+          "much",
+          "many",
+          "some",
+          "few"
+        ],
+        "correct": 0,
+        "explanation": "Traffic (движение) — неисчисляемое, используем much."
+      }
+    ]
+  }
+}

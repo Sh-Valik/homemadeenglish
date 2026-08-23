@@ -1,0 +1,419 @@
+{
+  "id": "gerund_vs_infinitive",
+  "title": "Gerund vs Infinitive",
+  "title_ru": "Герундий или Инфинитив",
+  "icon": "🏊",
+  "level": 18,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое Инфинитив и Герундий?",
+        "content": "Инфинитив — это начальная форма глагола с частицей 'to' (to do, to swim). Герундий — это глагол с окончанием '-ing' (doing, swimming). После одних глаголов мы должны ставить Инфинитив, а после других — Герундий.",
+        "examples": [
+          {
+            "en": "I want to swim. (Инфинитив)",
+            "ru": "Я хочу плавать."
+          },
+          {
+            "en": "I enjoy swimming. (Герундий)",
+            "ru": "Я наслаждаюсь плаванием."
+          }
+        ]
+      },
+      {
+        "title": "Глаголы + Инфинитив (to do)",
+        "content": "После глаголов want (хотеть), decide (решать), hope (надеяться), promise (обещать), plan (планировать), offer (предлагать) используется TO + глагол.",
+        "examples": [
+          {
+            "en": "She decided to leave.",
+            "ru": "Она решила уйти."
+          },
+          {
+            "en": "I promise to help you.",
+            "ru": "Я обещаю помочь тебе."
+          }
+        ]
+      },
+      {
+        "title": "Глаголы + Герундий (doing)",
+        "content": "После глаголов enjoy (наслаждаться), mind (возражать), finish (заканчивать), suggest (предлагать), stop (прекращать) используется глагол с окончанием -ING.",
+        "examples": [
+          {
+            "en": "He finished reading the book.",
+            "ru": "Он закончил читать книгу."
+          },
+          {
+            "en": "Do you mind opening the window?",
+            "ru": "Ты не возражаешь открыть окно?"
+          }
+        ],
+        "tip": "После предлогов (in, on, at, for, about) ВСЕГДА используется герундий (doing): I am good at drawing. Thank you for coming."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я хочу пойти домой.",
+        "words": [
+          "I",
+          "want",
+          "to",
+          "go",
+          "home",
+          "going",
+          "goes"
+        ],
+        "accepted_answers": [
+          "I want to go home"
+        ]
+      },
+      {
+        "prompt": "Он закончил делать домашнее задание.",
+        "words": [
+          "He",
+          "finished",
+          "doing",
+          "his",
+          "homework",
+          "to",
+          "do"
+        ],
+        "accepted_answers": [
+          "He finished doing his homework"
+        ]
+      },
+      {
+        "prompt": "Они решили купить дом.",
+        "words": [
+          "They",
+          "decided",
+          "to",
+          "buy",
+          "a",
+          "house",
+          "buying",
+          "buys"
+        ],
+        "accepted_answers": [
+          "They decided to buy a house"
+        ]
+      },
+      {
+        "prompt": "Мне нравится играть в теннис.",
+        "words": [
+          "I",
+          "enjoy",
+          "playing",
+          "tennis",
+          "to",
+          "play"
+        ],
+        "accepted_answers": [
+          "I enjoy playing tennis"
+        ]
+      },
+      {
+        "prompt": "Она надеется выиграть.",
+        "words": [
+          "She",
+          "hopes",
+          "to",
+          "win",
+          "winning",
+          "wins"
+        ],
+        "accepted_answers": [
+          "She hopes to win"
+        ]
+      },
+      {
+        "prompt": "Я не против подождать.",
+        "words": [
+          "I",
+          "don't",
+          "mind",
+          "waiting",
+          "to",
+          "wait",
+          "waited"
+        ],
+        "accepted_answers": [
+          "I don't mind waiting"
+        ]
+      },
+      {
+        "prompt": "Спасибо, что пришли.",
+        "words": [
+          "Thank",
+          "you",
+          "for",
+          "coming",
+          "to",
+          "come",
+          "comes"
+        ],
+        "accepted_answers": [
+          "Thank you for coming"
+        ]
+      },
+      {
+        "prompt": "Он пообещал позвонить мне.",
+        "words": [
+          "He",
+          "promised",
+          "to",
+          "call",
+          "me",
+          "calling",
+          "calls"
+        ],
+        "accepted_answers": [
+          "He promised to call me"
+        ]
+      },
+      {
+        "prompt": "Я планирую посетить Лондон.",
+        "words": [
+          "I",
+          "plan",
+          "to",
+          "visit",
+          "London",
+          "visiting",
+          "visits"
+        ],
+        "accepted_answers": [
+          "I plan to visit London"
+        ]
+      },
+      {
+        "prompt": "Перестань разговаривать!",
+        "words": [
+          "Stop",
+          "talking",
+          "to",
+          "talk",
+          "talks"
+        ],
+        "accepted_answers": [
+          "Stop talking"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I want to learn Spanish.",
+        "options": [
+          "Я хочу учить испанский.",
+          "Я учу испанский.",
+          "Мне нравится учить испанский.",
+          "Я выучу испанский."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He enjoys reading books.",
+        "options": [
+          "Ему нравится читать книги.",
+          "Он хочет читать книги.",
+          "Он читает книги.",
+          "Он решил читать книги."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They decided to stay.",
+        "options": [
+          "Они решили остаться.",
+          "Они заканчивают оставаться.",
+          "Они остались.",
+          "Они планируют остаться."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Do you mind helping me?",
+        "options": [
+          "Ты не против помочь мне?",
+          "Ты хочешь помочь мне?",
+          "Ты надеешься помочь мне?",
+          "Помоги мне."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She promised not to be late.",
+        "options": [
+          "Она пообещала не опаздывать.",
+          "Она решила не опаздывать.",
+          "Она надеется не опоздать.",
+          "Она не опаздывает."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I finished cleaning the room.",
+        "options": [
+          "Я закончил убирать комнату.",
+          "Я хочу убрать комнату.",
+          "Я убираю комнату.",
+          "Я убрал комнату."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is good at swimming.",
+        "options": [
+          "Он хорошо плавает (хорош в плавании).",
+          "Он хочет плавать.",
+          "Он плавает.",
+          "Он решил поплавать."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We hope to see you soon.",
+        "options": [
+          "Мы надеемся скоро тебя увидеть.",
+          "Мы увидим тебя скоро.",
+          "Мы хотим видеть тебя.",
+          "Мы планируем увидеть тебя."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Stop worrying about it.",
+        "options": [
+          "Перестань беспокоиться об этом.",
+          "Не беспокойся об этом.",
+          "Я беспокоюсь об этом.",
+          "Закончи беспокоиться."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She suggested going to the cinema.",
+        "options": [
+          "Она предложила пойти в кино.",
+          "Она хочет пойти в кино.",
+          "Она пойдет в кино.",
+          "Она решила пойти в кино."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I want ___ to the park.",
+        "options": [
+          "to go",
+          "going",
+          "go",
+          "goes"
+        ],
+        "correct": 0,
+        "explanation": "После глагола want используется инфинитив с to."
+      },
+      {
+        "sentence": "Do you enjoy ___?",
+        "options": [
+          "reading",
+          "to read",
+          "read",
+          "reads"
+        ],
+        "correct": 0,
+        "explanation": "После глагола enjoy используется герундий (V-ing)."
+      },
+      {
+        "sentence": "She decided ___ a new car.",
+        "options": [
+          "to buy",
+          "buying",
+          "buy",
+          "bought"
+        ],
+        "correct": 0,
+        "explanation": "После глагола decide используется инфинитив с to."
+      },
+      {
+        "sentence": "Have you finished ___ your homework?",
+        "options": [
+          "doing",
+          "to do",
+          "do",
+          "did"
+        ],
+        "correct": 0,
+        "explanation": "После глагола finish используется герундий (V-ing)."
+      },
+      {
+        "sentence": "I hope ___ you again.",
+        "options": [
+          "to see",
+          "seeing",
+          "see",
+          "saw"
+        ],
+        "correct": 0,
+        "explanation": "После глагола hope используется инфинитив с to."
+      },
+      {
+        "sentence": "He doesn't mind ___ late.",
+        "options": [
+          "working",
+          "to work",
+          "work",
+          "works"
+        ],
+        "correct": 0,
+        "explanation": "После mind (возражать) используется герундий (V-ing)."
+      },
+      {
+        "sentence": "Thank you for ___ me.",
+        "options": [
+          "helping",
+          "to help",
+          "help",
+          "helped"
+        ],
+        "correct": 0,
+        "explanation": "После предлогов (в данном случае for) всегда используется герундий."
+      },
+      {
+        "sentence": "They plan ___ to another country.",
+        "options": [
+          "to move",
+          "moving",
+          "move",
+          "moved"
+        ],
+        "correct": 0,
+        "explanation": "После глагола plan используется инфинитив с to."
+      },
+      {
+        "sentence": "Stop ___ so much noise!",
+        "options": [
+          "making",
+          "to make",
+          "make",
+          "made"
+        ],
+        "correct": 0,
+        "explanation": "Stop в значении 'перестать делать что-то' требует герундия."
+      },
+      {
+        "sentence": "He promised ___ me tomorrow.",
+        "options": [
+          "to call",
+          "calling",
+          "call",
+          "called"
+        ],
+        "correct": 0,
+        "explanation": "После глагола promise используется инфинитив с to."
+      }
+    ]
+  }
+}

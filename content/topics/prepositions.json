@@ -1,0 +1,458 @@
+{
+  "id": "prepositions",
+  "title": "Prepositions",
+  "title_ru": "Предлоги in / on / at",
+  "icon": "📍",
+  "level": 6,
+  "theory": {
+    "sections": [
+      {
+        "title": "Предлоги места и времени",
+        "content": "Предлоги in, on, at — одни из самых частых в английском языке. Они используются и для места, и для времени, но по разным правилам.",
+        "examples": [
+          {
+            "en": "I live in Moscow.",
+            "ru": "Я живу в Москве."
+          },
+          {
+            "en": "The book is on the table.",
+            "ru": "Книга на столе."
+          },
+          {
+            "en": "Meet me at the station.",
+            "ru": "Встреть меня на станции."
+          }
+        ]
+      },
+      {
+        "title": "Предлоги времени",
+        "content": "AT — точное время и праздники:\n• at 5 o'clock, at noon, at midnight, at night, at Christmas, at the weekend\n\nON — дни и даты:\n• on Monday, on July 5th, on my birthday, on Christmas Day\n\nIN — месяцы, годы, сезоны, части дня:\n• in January, in 2024, in summer, in the morning/afternoon/evening",
+        "examples": [
+          {
+            "en": "I wake up at 7 AM.",
+            "ru": "Я просыпаюсь в 7 утра."
+          },
+          {
+            "en": "The meeting is on Friday.",
+            "ru": "Встреча в пятницу."
+          },
+          {
+            "en": "She was born in May.",
+            "ru": "Она родилась в мае."
+          }
+        ],
+        "tip": "Запомните: at night (НЕ in night), но in the morning/afternoon/evening."
+      },
+      {
+        "title": "Предлоги места",
+        "content": "IN — внутри чего-то (закрытое пространство, города, страны):\n• in the room, in Moscow, in Russia, in the box\n\nON — на поверхности:\n• on the table, on the wall, on the floor, on the street\n\nAT — в точке, по адресу, в конкретном месте:\n• at home, at work, at school, at the bus stop, at 25 Oxford Street",
+        "examples": [
+          {
+            "en": "The keys are in the bag.",
+            "ru": "Ключи в сумке."
+          },
+          {
+            "en": "The picture is on the wall.",
+            "ru": "Картина на стене."
+          },
+          {
+            "en": "She is at work.",
+            "ru": "Она на работе."
+          }
+        ],
+        "tip": "at home, at work, at school — устойчивые выражения (без the)."
+      },
+      {
+        "title": "Особые случаи",
+        "content": "• in the car / in a taxi, НО on the bus / on the train / on the plane\n• at the top / at the bottom, НО on the left / on the right\n• in the photo / in the picture\n• on TV / on the radio / on the Internet\n• at the beginning / at the end",
+        "examples": [
+          {
+            "en": "I saw it on TV.",
+            "ru": "Я видел это по телевизору."
+          },
+          {
+            "en": "She is in the car.",
+            "ru": "Она в машине."
+          },
+          {
+            "en": "He is on the bus.",
+            "ru": "Он в автобусе."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я живу в Москве.",
+        "words": [
+          "I",
+          "live",
+          "in",
+          "Moscow",
+          "at",
+          "on",
+          "lives"
+        ],
+        "accepted_answers": [
+          "I live in Moscow"
+        ]
+      },
+      {
+        "prompt": "Книга на столе.",
+        "words": [
+          "The",
+          "book",
+          "is",
+          "on",
+          "the",
+          "table",
+          "in",
+          "at"
+        ],
+        "accepted_answers": [
+          "The book is on the table"
+        ]
+      },
+      {
+        "prompt": "Встреча в понедельник.",
+        "words": [
+          "The",
+          "meeting",
+          "is",
+          "on",
+          "Monday",
+          "in",
+          "at",
+          "a"
+        ],
+        "accepted_answers": [
+          "The meeting is on Monday"
+        ]
+      },
+      {
+        "prompt": "Она на работе.",
+        "words": [
+          "She",
+          "is",
+          "at",
+          "work",
+          "in",
+          "on",
+          "the"
+        ],
+        "accepted_answers": [
+          "She is at work"
+        ]
+      },
+      {
+        "prompt": "Я родился в 1995 году.",
+        "words": [
+          "I",
+          "was",
+          "born",
+          "in",
+          "1995",
+          "at",
+          "on"
+        ],
+        "accepted_answers": [
+          "I was born in 1995"
+        ]
+      },
+      {
+        "prompt": "Ключи в сумке.",
+        "words": [
+          "The",
+          "keys",
+          "are",
+          "in",
+          "the",
+          "bag",
+          "on",
+          "at"
+        ],
+        "accepted_answers": [
+          "The keys are in the bag"
+        ]
+      },
+      {
+        "prompt": "Он приедет в пятницу.",
+        "words": [
+          "He",
+          "will",
+          "arrive",
+          "on",
+          "Friday",
+          "in",
+          "at"
+        ],
+        "accepted_answers": [
+          "He will arrive on Friday"
+        ]
+      },
+      {
+        "prompt": "Мы встретимся в 6 часов.",
+        "words": [
+          "We",
+          "will",
+          "meet",
+          "at",
+          "6",
+          "o'clock",
+          "in",
+          "on"
+        ],
+        "accepted_answers": [
+          "We will meet at 6 o'clock"
+        ]
+      },
+      {
+        "prompt": "Картина на стене.",
+        "words": [
+          "The",
+          "picture",
+          "is",
+          "on",
+          "the",
+          "wall",
+          "in",
+          "at"
+        ],
+        "accepted_answers": [
+          "The picture is on the wall"
+        ]
+      },
+      {
+        "prompt": "Она в машине.",
+        "words": [
+          "She",
+          "is",
+          "in",
+          "the",
+          "car",
+          "on",
+          "at"
+        ],
+        "accepted_answers": [
+          "She is in the car"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I will see you at 3 PM.",
+        "options": [
+          "Увижу тебя в 3 часа дня.",
+          "Увижу тебя в 3 дня.",
+          "Увижу тебя через 3 часа.",
+          "Я видел тебя в 3 часа."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The party is on Saturday.",
+        "options": [
+          "Вечеринка в субботу.",
+          "Вечеринка в эту субботу.",
+          "Вечеринка была в субботу.",
+          "Вечеринки не будет."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She lives in a small village.",
+        "options": [
+          "Она живёт в маленькой деревне.",
+          "Она жила в маленькой деревне.",
+          "Она живёт на маленькой деревне.",
+          "Она живёт около деревни."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The cat is on the roof.",
+        "options": [
+          "Кот на крыше.",
+          "Кот в крыше.",
+          "Кот у крыши.",
+          "Кот под крышей."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I study English in the evening.",
+        "options": [
+          "Я учу английский вечером.",
+          "Я учу английский утром.",
+          "Я учил английский вечером.",
+          "Я учу английский ночью."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is at the airport.",
+        "options": [
+          "Он в аэропорту.",
+          "Он на аэропорту.",
+          "Он из аэропорта.",
+          "Он около аэропорта."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The flowers are in the vase.",
+        "options": [
+          "Цветы в вазе.",
+          "Цветы на вазе.",
+          "Цветы у вазы.",
+          "Цветы под вазой."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "My birthday is in March.",
+        "options": [
+          "Мой день рождения в марте.",
+          "Мой день рождения на март.",
+          "Мой день рождения был в марте.",
+          "Мой день рождения через март."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I saw it on the news.",
+        "options": [
+          "Я видел это в новостях.",
+          "Я видел это на новостях.",
+          "Я смотрел новости.",
+          "Я не видел новости."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She is sitting at the desk.",
+        "options": [
+          "Она сидит за столом.",
+          "Она сидит на столе.",
+          "Она сидит в столе.",
+          "Она стоит за столом."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I was born ___ 1990.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "in + год."
+      },
+      {
+        "sentence": "The meeting is ___ Monday.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "on + день недели."
+      },
+      {
+        "sentence": "She arrives ___ 5 o'clock.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 2,
+        "explanation": "at + точное время."
+      },
+      {
+        "sentence": "The cat is ___ the box.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "in — внутри."
+      },
+      {
+        "sentence": "The book is ___ the table.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "on — на поверхности."
+      },
+      {
+        "sentence": "I'll meet you ___ the bus stop.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 2,
+        "explanation": "at — в конкретной точке."
+      },
+      {
+        "sentence": "He works ___ the evening.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "in the morning/afternoon/evening."
+      },
+      {
+        "sentence": "She is ___ home now.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 2,
+        "explanation": "at home — устойчивое выражение."
+      },
+      {
+        "sentence": "The picture is ___ the wall.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "on — на поверхности (стены)."
+      },
+      {
+        "sentence": "We go to school ___ the morning.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "in the morning."
+      }
+    ]
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "id": "present_continuous",
+  "title": "Present Continuous",
+  "title_ru": "Настоящее длительное время",
+  "icon": "🔄",
+  "level": 4,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое Present Continuous?",
+        "content": "Present Continuous описывает действия, которые происходят прямо сейчас, в момент речи, или временные ситуации.\n\nИспользуем:\n• Действие прямо сейчас (I am reading a book now)\n• Временные ситуации (She is staying with friends this week)\n• Запланированное будущее (We are meeting tomorrow)\n• Раздражающие привычки с always (He is always losing his keys)",
+        "examples": [
+          {
+            "en": "I am reading a book now.",
+            "ru": "Я сейчас читаю книгу."
+          },
+          {
+            "en": "She is cooking dinner.",
+            "ru": "Она готовит ужин."
+          }
+        ]
+      },
+      {
+        "title": "Формула",
+        "content": "Present Continuous строится с помощью глагола to be (am/is/are) + глагол с окончанием -ing.",
+        "formula": "I am + Ving\nHe/She/It is + Ving\nYou/We/They are + Ving",
+        "examples": [
+          {
+            "en": "I am working.",
+            "ru": "Я работаю (сейчас)."
+          },
+          {
+            "en": "He is sleeping.",
+            "ru": "Он спит."
+          },
+          {
+            "en": "They are playing.",
+            "ru": "Они играют."
+          }
+        ],
+        "tip": "Сокращения: I'm, he's, she's, it's, we're, you're, they're."
+      },
+      {
+        "title": "Правила добавления -ing",
+        "content": "• Обычно: work → working, read → reading\n• Глагол на -e: make → making, write → writing (убираем -e)\n• Короткий CVC: run → running, sit → sitting (удваиваем последнюю согласную)\n• Глагол на -ie: lie → lying, die → dying (ie → y + ing)",
+        "examples": [
+          {
+            "en": "make → making",
+            "ru": "убираем -e"
+          },
+          {
+            "en": "run → running",
+            "ru": "удваиваем n"
+          },
+          {
+            "en": "lie → lying",
+            "ru": "ie → y"
+          }
+        ]
+      },
+      {
+        "title": "Отрицание и вопросы",
+        "content": "Отрицание: am/is/are + not + Ving. Вопрос: Am/Is/Are + subject + Ving?",
+        "formula": "Отрицание: Subject + am/is/are + not + Ving\nВопрос: Am/Is/Are + subject + Ving?",
+        "examples": [
+          {
+            "en": "I am not watching TV.",
+            "ru": "Я не смотрю телевизор."
+          },
+          {
+            "en": "Is she studying?",
+            "ru": "Она учится?"
+          },
+          {
+            "en": "They aren't coming.",
+            "ru": "Они не приходят."
+          }
+        ]
+      },
+      {
+        "title": "Глаголы состояния (State verbs)",
+        "content": "Некоторые глаголы НЕ используются в Continuous! Это глаголы, описывающие состояния, а не действия: know, like, love, hate, want, need, believe, understand, remember, belong, seem.",
+        "examples": [
+          {
+            "en": "I know the answer. ✅",
+            "ru": "Я знаю ответ."
+          },
+          {
+            "en": "I am knowing the answer. ❌",
+            "ru": "Неправильно!"
+          }
+        ],
+        "tip": "I'm loving it — исключение (рекламный слоган McDonald's), в обычной речи — I love it."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я сейчас читаю книгу.",
+        "words": [
+          "I",
+          "am",
+          "reading",
+          "a",
+          "book",
+          "now",
+          "read",
+          "reads"
+        ],
+        "accepted_answers": [
+          "I am reading a book now"
+        ]
+      },
+      {
+        "prompt": "Она готовит ужин.",
+        "words": [
+          "She",
+          "is",
+          "cooking",
+          "dinner",
+          "cooks",
+          "cook",
+          "are"
+        ],
+        "accepted_answers": [
+          "She is cooking dinner"
+        ]
+      },
+      {
+        "prompt": "Они не играют в парке.",
+        "words": [
+          "They",
+          "are",
+          "not",
+          "playing",
+          "in",
+          "the",
+          "park",
+          "is",
+          "play"
+        ],
+        "accepted_answers": [
+          "They are not playing in the park"
+        ]
+      },
+      {
+        "prompt": "Он смотрит телевизор сейчас.",
+        "words": [
+          "He",
+          "is",
+          "watching",
+          "TV",
+          "now",
+          "watches",
+          "are",
+          "watch"
+        ],
+        "accepted_answers": [
+          "He is watching TV now"
+        ]
+      },
+      {
+        "prompt": "Ты слушаешь музыку?",
+        "words": [
+          "Are",
+          "you",
+          "listening",
+          "to",
+          "music",
+          "Is",
+          "listen",
+          "Do"
+        ],
+        "accepted_answers": [
+          "Are you listening to music"
+        ]
+      },
+      {
+        "prompt": "Мы учим английский.",
+        "words": [
+          "We",
+          "are",
+          "learning",
+          "English",
+          "is",
+          "learn",
+          "learns"
+        ],
+        "accepted_answers": [
+          "We are learning English"
+        ]
+      },
+      {
+        "prompt": "Дети спят.",
+        "words": [
+          "The",
+          "children",
+          "are",
+          "sleeping",
+          "is",
+          "sleep",
+          "slept"
+        ],
+        "accepted_answers": [
+          "The children are sleeping"
+        ]
+      },
+      {
+        "prompt": "Я не работаю сегодня.",
+        "words": [
+          "I",
+          "am",
+          "not",
+          "working",
+          "today",
+          "work",
+          "don't"
+        ],
+        "accepted_answers": [
+          "I am not working today"
+        ]
+      },
+      {
+        "prompt": "Она пишет письмо.",
+        "words": [
+          "She",
+          "is",
+          "writing",
+          "a",
+          "letter",
+          "writes",
+          "write"
+        ],
+        "accepted_answers": [
+          "She is writing a letter"
+        ]
+      },
+      {
+        "prompt": "Идёт дождь.",
+        "words": [
+          "It",
+          "is",
+          "raining",
+          "rains",
+          "rain",
+          "are",
+          "was"
+        ],
+        "accepted_answers": [
+          "It is raining"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I am studying for the exam.",
+        "options": [
+          "Я готовлюсь к экзамену (сейчас).",
+          "Я готовлюсь к экзамену (обычно).",
+          "Я готовился к экзамену.",
+          "Я буду готовиться к экзамену."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She is talking on the phone.",
+        "options": [
+          "Она разговаривает по телефону (сейчас).",
+          "Она разговаривает по телефону (обычно).",
+          "Она разговаривала по телефону.",
+          "Она не разговаривает."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They aren't playing football today.",
+        "options": [
+          "Они не играют в футбол сегодня.",
+          "Они не играли в футбол сегодня.",
+          "Они играют в футбол сегодня.",
+          "Они не играют в футбол каждый день."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Is he working right now?",
+        "options": [
+          "Он работает прямо сейчас?",
+          "Он работает каждый день?",
+          "Он работал?",
+          "Он не работает сейчас."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We are moving to a new house.",
+        "options": [
+          "Мы переезжаем в новый дом.",
+          "Мы переехали в новый дом.",
+          "Мы переедем в новый дом.",
+          "Мы не переезжаем."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The baby is crying.",
+        "options": [
+          "Ребёнок плачет (сейчас).",
+          "Ребёнок плачет (обычно).",
+          "Ребёнок плакал.",
+          "Ребёнок не плачет."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I am not feeling well today.",
+        "options": [
+          "Я плохо себя чувствую сегодня.",
+          "Я хорошо себя чувствую.",
+          "Я плохо себя чувствовал.",
+          "Я обычно плохо себя чувствую."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Are you coming to the party tonight?",
+        "options": [
+          "Ты придёшь на вечеринку сегодня?",
+          "Ты ходишь на вечеринки?",
+          "Ты пришёл на вечеринку?",
+          "Ты не придёшь?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is always complaining about everything.",
+        "options": [
+          "Он вечно жалуется на всё.",
+          "Он сейчас жалуется.",
+          "Он жаловался.",
+          "Он никогда не жалуется."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The sun is shining brightly.",
+        "options": [
+          "Солнце ярко светит.",
+          "Солнце ярко светило.",
+          "Солнце будет ярко светить.",
+          "Солнце не светит."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "She ___ reading a novel.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "She + is + Ving."
+      },
+      {
+        "sentence": "I ___ watching TV right now.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "I + am + Ving."
+      },
+      {
+        "sentence": "They ___ playing in the garden.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "does"
+        ],
+        "correct": 1,
+        "explanation": "They + are + Ving."
+      },
+      {
+        "sentence": "___ he sleeping?",
+        "options": [
+          "Are",
+          "Is",
+          "Am",
+          "Does"
+        ],
+        "correct": 1,
+        "explanation": "Is + he + Ving?"
+      },
+      {
+        "sentence": "We ___ not working today.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "We + are + not + Ving."
+      },
+      {
+        "sentence": "She is ___ a letter.",
+        "options": [
+          "write",
+          "writing",
+          "writes",
+          "wrote"
+        ],
+        "correct": 1,
+        "explanation": "to be + Ving: write → writing."
+      },
+      {
+        "sentence": "The children are ___ in the pool.",
+        "options": [
+          "swim",
+          "swimming",
+          "swims",
+          "swam"
+        ],
+        "correct": 1,
+        "explanation": "swim → swimming (удвоение m)."
+      },
+      {
+        "sentence": "He is ___ to music.",
+        "options": [
+          "listen",
+          "listening",
+          "listens",
+          "listened"
+        ],
+        "correct": 1,
+        "explanation": "listen → listening."
+      },
+      {
+        "sentence": "I ___ cooking dinner now.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "was"
+        ],
+        "correct": 1,
+        "explanation": "I + am."
+      },
+      {
+        "sentence": "It ___ raining outside.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "It + is."
+      }
+    ]
+  }
+}

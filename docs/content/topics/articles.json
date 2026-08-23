@@ -1,0 +1,457 @@
+{
+  "id": "articles",
+  "title": "Articles",
+  "title_ru": "Артикли a / an / the",
+  "icon": "📝",
+  "level": 5,
+  "theory": {
+    "sections": [
+      {
+        "title": "Что такое артикли?",
+        "content": "В английском языке есть два артикля: неопределённый (a/an) и определённый (the). В русском языке артиклей нет, поэтому это одна из самых сложных тем для русскоговорящих.\n\nАртикль ставится ПЕРЕД существительным (или перед прилагательным + существительным).",
+        "examples": [
+          {
+            "en": "a book",
+            "ru": "какая-то книга (одна из многих)"
+          },
+          {
+            "en": "an apple",
+            "ru": "какое-то яблоко"
+          },
+          {
+            "en": "the book",
+            "ru": "та самая книга (конкретная)"
+          }
+        ]
+      },
+      {
+        "title": "Неопределённый артикль a / an",
+        "content": "A / An используется:\n• С исчисляемыми существительными в единственном числе, когда мы говорим о чём-то впервые или о неконкретном предмете\n• a — перед согласным ЗВУКОМ: a book, a car, a university (звук [j])\n• an — перед гласным ЗВУКОМ: an apple, an hour (h не произносится), an idea",
+        "examples": [
+          {
+            "en": "I have a cat.",
+            "ru": "У меня есть кот (какой-то)."
+          },
+          {
+            "en": "She is an engineer.",
+            "ru": "Она инженер."
+          },
+          {
+            "en": "It's a useful tool.",
+            "ru": "Это полезный инструмент. (a, т.к. звук [j])"
+          }
+        ],
+        "tip": "Важен ЗВУК, а не буква! a university (звук [j]), но an umbrella (звук [ʌ])."
+      },
+      {
+        "title": "Определённый артикль the",
+        "content": "The используется:\n• Когда предмет уже упоминался или известен собеседникам\n• Когда предмет единственный в своём роде (the sun, the moon)\n• С превосходной степенью (the best, the biggest)\n• С порядковыми числительными (the first, the second)",
+        "examples": [
+          {
+            "en": "I bought a book. The book is interesting.",
+            "ru": "Я купил книгу. Книга интересная."
+          },
+          {
+            "en": "The sun is bright today.",
+            "ru": "Солнце сегодня яркое."
+          },
+          {
+            "en": "She is the best student.",
+            "ru": "Она лучшая ученица."
+          }
+        ]
+      },
+      {
+        "title": "Когда артикль НЕ нужен (zero article)",
+        "content": "Артикль не ставится:\n• С неисчисляемыми в общем смысле (I like music / Water is important)\n• С именами собственными (London, Russia, но the USA, the UK)\n• С названиями приёмов пищи (breakfast, lunch, dinner)\n• С видами спорта и играми (football, chess)\n• С языками (English, Russian)",
+        "examples": [
+          {
+            "en": "I like music.",
+            "ru": "Я люблю музыку (в целом)."
+          },
+          {
+            "en": "She speaks English.",
+            "ru": "Она говорит по-английски."
+          },
+          {
+            "en": "Breakfast is ready.",
+            "ru": "Завтрак готов."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Это интересная книга.",
+        "words": [
+          "This",
+          "is",
+          "an",
+          "interesting",
+          "book",
+          "a",
+          "the",
+          "It"
+        ],
+        "accepted_answers": [
+          "This is an interesting book"
+        ]
+      },
+      {
+        "prompt": "Солнце яркое сегодня.",
+        "words": [
+          "The",
+          "sun",
+          "is",
+          "bright",
+          "today",
+          "A",
+          "An",
+          "sunny"
+        ],
+        "accepted_answers": [
+          "The sun is bright today"
+        ]
+      },
+      {
+        "prompt": "У меня есть кошка.",
+        "words": [
+          "I",
+          "have",
+          "a",
+          "cat",
+          "the",
+          "an",
+          "has"
+        ],
+        "accepted_answers": [
+          "I have a cat"
+        ]
+      },
+      {
+        "prompt": "Она лучшая ученица в классе.",
+        "words": [
+          "She",
+          "is",
+          "the",
+          "best",
+          "student",
+          "in",
+          "class",
+          "a"
+        ],
+        "accepted_answers": [
+          "She is the best student in the class"
+        ]
+      },
+      {
+        "prompt": "Я люблю музыку.",
+        "words": [
+          "I",
+          "like",
+          "music",
+          "the",
+          "a",
+          "love",
+          "an"
+        ],
+        "accepted_answers": [
+          "I like music"
+        ]
+      },
+      {
+        "prompt": "Он врач.",
+        "words": [
+          "He",
+          "is",
+          "a",
+          "doctor",
+          "the",
+          "an"
+        ],
+        "accepted_answers": [
+          "He is a doctor"
+        ]
+      },
+      {
+        "prompt": "Яблоко на столе.",
+        "words": [
+          "The",
+          "apple",
+          "is",
+          "on",
+          "the",
+          "table",
+          "a",
+          "an"
+        ],
+        "accepted_answers": [
+          "The apple is on the table"
+        ]
+      },
+      {
+        "prompt": "Я купил машину. Машина красная.",
+        "words": [
+          "I",
+          "bought",
+          "a",
+          "car",
+          "The",
+          "is",
+          "red",
+          "an"
+        ],
+        "accepted_answers": [
+          "I bought a car. The car is red"
+        ]
+      },
+      {
+        "prompt": "Она играет на пианино.",
+        "words": [
+          "She",
+          "plays",
+          "the",
+          "piano",
+          "a",
+          "an",
+          "on"
+        ],
+        "accepted_answers": [
+          "She plays the piano"
+        ]
+      },
+      {
+        "prompt": "Вода важна для жизни.",
+        "words": [
+          "Water",
+          "is",
+          "important",
+          "for",
+          "life",
+          "The",
+          "A",
+          "an"
+        ],
+        "accepted_answers": [
+          "Water is important for life"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I saw a dog in the park.",
+        "options": [
+          "Я увидел собаку в парке.",
+          "Я увидел ту собаку в парке.",
+          "Я вижу собаку в парке.",
+          "Я увидел собак в парке."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The moon is beautiful tonight.",
+        "options": [
+          "Луна красивая сегодня ночью.",
+          "Какая-то луна красивая.",
+          "Луна была красивой.",
+          "Луна будет красивой."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She is an actress.",
+        "options": [
+          "Она актриса.",
+          "Она та актриса.",
+          "Она не актриса.",
+          "Она была актрисой."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I like the dress you bought.",
+        "options": [
+          "Мне нравится платье, которое ты купил.",
+          "Мне нравится какое-то платье.",
+          "Мне нравятся платья.",
+          "Мне не нравится платье."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He drinks coffee every morning.",
+        "options": [
+          "Он пьёт кофе каждое утро.",
+          "Он пьёт тот кофе каждое утро.",
+          "Он пьёт один кофе каждое утро.",
+          "Он пил кофе каждое утро."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Can you open the window?",
+        "options": [
+          "Можешь открыть окно?",
+          "Можешь открыть какое-нибудь окно?",
+          "Можешь закрыть окно?",
+          "Ты открыл окно?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This is the first time I'm here.",
+        "options": [
+          "Я здесь в первый раз.",
+          "Я здесь был в первый раз.",
+          "Это один раз.",
+          "Я здесь не в первый раз."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "An elephant is a large animal.",
+        "options": [
+          "Слон — это большое животное.",
+          "Тот слон — большое животное.",
+          "Слон был большим.",
+          "Слоны не большие."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I need a new phone.",
+        "options": [
+          "Мне нужен новый телефон.",
+          "Мне нужен тот телефон.",
+          "Мне не нужен телефон.",
+          "У меня есть новый телефон."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The children are playing outside.",
+        "options": [
+          "Дети играют на улице.",
+          "Какие-то дети играют.",
+          "Дети играли на улице.",
+          "Ребёнок играет."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "She is ___ teacher.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "correct": 0,
+        "explanation": "Профессия: a + согласный звук."
+      },
+      {
+        "sentence": "I ate ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "an + гласный звук (apple)."
+      },
+      {
+        "sentence": "___ sun rises in the east.",
+        "options": [
+          "A",
+          "The",
+          "An",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "The — единственное в своём роде."
+      },
+      {
+        "sentence": "He is ___ best player on the team.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "the + превосходная степень."
+      },
+      {
+        "sentence": "I like ___ music.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "explanation": "Без артикля — музыка в общем."
+      },
+      {
+        "sentence": "She speaks ___ English very well.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 3,
+        "explanation": "Без артикля перед языками."
+      },
+      {
+        "sentence": "This is ___ interesting movie.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "an + гласный звук (interesting)."
+      },
+      {
+        "sentence": "I bought a shirt. ___ shirt is blue.",
+        "options": [
+          "A",
+          "The",
+          "An",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "The — уже упоминалось ранее."
+      },
+      {
+        "sentence": "He plays ___ guitar.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "—"
+        ],
+        "correct": 1,
+        "explanation": "the + музыкальные инструменты."
+      },
+      {
+        "sentence": "___ water is essential for life.",
+        "options": [
+          "A",
+          "The",
+          "An",
+          "—"
+        ],
+        "correct": 3,
+        "explanation": "Без артикля — вода в общем смысле."
+      }
+    ]
+  }
+}

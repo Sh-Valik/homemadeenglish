@@ -1,0 +1,414 @@
+{
+  "id": "adj_vs_adv",
+  "title": "Adjectives vs Adverbs",
+  "title_ru": "Прилагательные и наречия",
+  "icon": "🏎️",
+  "level": 12,
+  "theory": {
+    "sections": [
+      {
+        "title": "В чем разница?",
+        "content": "Прилагательное описывает СУЩЕСТВИТЕЛЬНОЕ (отвечает на вопрос 'какой?'). Наречие описывает ГЛАГОЛ (отвечает на вопрос 'как?').",
+        "formula": "Adj + Noun  //  Verb + Adv",
+        "examples": [
+          {
+            "en": "He is a slow driver. (slow - прилагательное, описывает driver)",
+            "ru": "Он медленный водитель."
+          },
+          {
+            "en": "He drives slowly. (slowly - наречие, описывает drives)",
+            "ru": "Он водит медленно."
+          }
+        ]
+      },
+      {
+        "title": "Как образуются наречия?",
+        "content": "Обычно наречия образуются добавлением суффикса -ly к прилагательному. Если прилагательное оканчивается на -y, она меняется на -i.",
+        "formula": "quick -> quickly, easy -> easily, careful -> carefully",
+        "examples": [
+          {
+            "en": "She is a careful worker.",
+            "ru": "Она осторожный работник."
+          },
+          {
+            "en": "She works carefully.",
+            "ru": "Она работает осторожно."
+          }
+        ]
+      },
+      {
+        "title": "Исключения!",
+        "content": "Некоторые слова не меняют форму, а слово 'good' меняется полностью.",
+        "formula": "good -> well, fast -> fast, hard -> hard, late -> late",
+        "examples": [
+          {
+            "en": "He is a good player. He plays well.",
+            "ru": "Он хороший игрок. Он играет хорошо."
+          },
+          {
+            "en": "It's a fast car. It goes fast.",
+            "ru": "Это быстрая машина. Она едет быстро."
+          }
+        ],
+        "tip": "С глаголами чувств (look, feel, smell, sound, taste) всегда используются ПРИЛАГАТЕЛЬНЫЕ: You look good (НЕ well). It smells nice (НЕ nicely)."
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Он хорошо поет.",
+        "words": [
+          "He",
+          "sings",
+          "well",
+          "good",
+          "goodly"
+        ],
+        "accepted_answers": [
+          "He sings well"
+        ]
+      },
+      {
+        "prompt": "Это быстрая машина.",
+        "words": [
+          "This",
+          "is",
+          "a",
+          "fast",
+          "car",
+          "fastly",
+          "quickly"
+        ],
+        "accepted_answers": [
+          "This is a fast car"
+        ]
+      },
+      {
+        "prompt": "Она медленно открыла дверь.",
+        "words": [
+          "She",
+          "opened",
+          "the",
+          "door",
+          "slowly",
+          "slow",
+          "slowed"
+        ],
+        "accepted_answers": [
+          "She opened the door slowly"
+        ]
+      },
+      {
+        "prompt": "Ты выглядишь уставшим.",
+        "words": [
+          "You",
+          "look",
+          "tired",
+          "tiredly",
+          "tiring"
+        ],
+        "accepted_answers": [
+          "You look tired"
+        ]
+      },
+      {
+        "prompt": "Суп пахнет вкусно.",
+        "words": [
+          "The",
+          "soup",
+          "smells",
+          "delicious",
+          "deliciously",
+          "goodly"
+        ],
+        "accepted_answers": [
+          "The soup smells delicious"
+        ]
+      },
+      {
+        "prompt": "Он упорно работает.",
+        "words": [
+          "He",
+          "works",
+          "hard",
+          "hardly",
+          "strong"
+        ],
+        "accepted_answers": [
+          "He works hard"
+        ]
+      },
+      {
+        "prompt": "Они говорят тихо.",
+        "words": [
+          "They",
+          "speak",
+          "quietly",
+          "quiet",
+          "quietness"
+        ],
+        "accepted_answers": [
+          "They speak quietly"
+        ]
+      },
+      {
+        "prompt": "У нас был легкий тест.",
+        "words": [
+          "We",
+          "had",
+          "an",
+          "easy",
+          "test",
+          "easily",
+          "easier"
+        ],
+        "accepted_answers": [
+          "We had an easy test"
+        ]
+      },
+      {
+        "prompt": "Она легко прошла тест.",
+        "words": [
+          "She",
+          "passed",
+          "the",
+          "test",
+          "easily",
+          "easy",
+          "easier"
+        ],
+        "accepted_answers": [
+          "She passed the test easily"
+        ]
+      },
+      {
+        "prompt": "Пожалуйста, будь осторожен.",
+        "words": [
+          "Please",
+          "be",
+          "careful",
+          "carefully",
+          "care"
+        ],
+        "accepted_answers": [
+          "Please be careful"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "She speaks English perfectly.",
+        "options": [
+          "Она говорит по-английски идеально.",
+          "Она идеальная англичанка.",
+          "Ее английский идеален.",
+          "Она говорит по-английски идеально хороший."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He is a fast runner.",
+        "options": [
+          "Он быстрый бегун.",
+          "Он бегает быстро.",
+          "Он бегун, который бегает быстро.",
+          "Он бегает быстрее."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The music sounds beautiful.",
+        "options": [
+          "Музыка звучит красиво.",
+          "Красивая музыка звучит.",
+          "Музыка красиво звучит.",
+          "Музыка - это красота."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They arrived late.",
+        "options": [
+          "Они прибыли поздно.",
+          "Они поздние прибывшие.",
+          "Они опаздывают.",
+          "Они прибыли последними."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I know him very well.",
+        "options": [
+          "Я знаю его очень хорошо.",
+          "Я знаю, что он очень хороший.",
+          "Я хороший его знакомый.",
+          "Я знаю, что он здоров."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "It is a heavy box.",
+        "options": [
+          "Это тяжелая коробка.",
+          "Коробка тяжело нести.",
+          "Это коробка тяжелая.",
+          "Тяжело нести эту коробку."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He lifted the box heavily.",
+        "options": [
+          "Он тяжело поднял коробку.",
+          "Он поднял тяжелую коробку.",
+          "Тяжелая коробка была поднята им.",
+          "Он тяжело дышал, поднимая коробку."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Your idea is brilliant.",
+        "options": [
+          "Твоя идея блестящая.",
+          "Ты блестяще придумал идею.",
+          "Идея блестит.",
+          "Твоя идея гениально звучит."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She smiled happily.",
+        "options": [
+          "Она счастливо улыбнулась.",
+          "Она счастлива улыбаться.",
+          "Она счастливая, когда улыбается.",
+          "Ее улыбка счастливая."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "This tastes bad.",
+        "options": [
+          "Это на вкус плохое (невкусное).",
+          "Это плохо выглядит.",
+          "Это плохо пахнет.",
+          "Это плохо."
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "She plays the piano very ___.",
+        "options": [
+          "good",
+          "well",
+          "goodly",
+          "nice"
+        ],
+        "correct": 1,
+        "explanation": "После глагола (plays) нужно наречие. Наречие от good — well."
+      },
+      {
+        "sentence": "He is a ___ student.",
+        "options": [
+          "good",
+          "well",
+          "goodly",
+          "better"
+        ],
+        "correct": 0,
+        "explanation": "Перед существительным (student) нужно прилагательное good."
+      },
+      {
+        "sentence": "The cheetah runs very ___.",
+        "options": [
+          "fast",
+          "fastly",
+          "quick",
+          "speed"
+        ],
+        "correct": 0,
+        "explanation": "Слово fast является и прилагательным, и наречием (fastly не существует)."
+      },
+      {
+        "sentence": "She answered the question ___.",
+        "options": [
+          "correct",
+          "correctly",
+          "corrects",
+          "right"
+        ],
+        "correct": 1,
+        "explanation": "Описываем глагол (answered), поэтому нужно наречие correctly."
+      },
+      {
+        "sentence": "You look ___. Are you okay?",
+        "options": [
+          "terrible",
+          "terribly",
+          "badly",
+          "worse"
+        ],
+        "correct": 0,
+        "explanation": "С глаголами чувств (look) используем прилагательное (terrible)."
+      },
+      {
+        "sentence": "He worked ___ to pass the exam.",
+        "options": [
+          "hard",
+          "hardly",
+          "harder",
+          "hards"
+        ],
+        "correct": 0,
+        "explanation": "Наречие 'усердно/упорно' — это hard. (Hardly значит 'едва ли')."
+      },
+      {
+        "sentence": "Please speak more ___.",
+        "options": [
+          "quiet",
+          "quietly",
+          "quietness",
+          "silent"
+        ],
+        "correct": 1,
+        "explanation": "Описываем глагол (speak), нужно наречие quietly."
+      },
+      {
+        "sentence": "This pie smells ___.",
+        "options": [
+          "delicious",
+          "deliciously",
+          "goodly",
+          "well"
+        ],
+        "correct": 0,
+        "explanation": "С глаголом чувств (smell) используем прилагательное (delicious)."
+      },
+      {
+        "sentence": "They won the game ___.",
+        "options": [
+          "easy",
+          "easily",
+          "ease",
+          "easier"
+        ],
+        "correct": 1,
+        "explanation": "Описываем действие (won), нужно наречие easily."
+      },
+      {
+        "sentence": "It is a ___ day today.",
+        "options": [
+          "beautiful",
+          "beautifully",
+          "beauty",
+          "nice"
+        ],
+        "correct": 0,
+        "explanation": "Описываем существительное (day), нужно прилагательное beautiful."
+      }
+    ]
+  }
+}

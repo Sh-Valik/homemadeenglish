@@ -1,0 +1,431 @@
+{
+  "id": "present_perfect",
+  "title": "Present Perfect",
+  "title_ru": "Настоящее совершенное время",
+  "icon": "✅",
+  "level": 10,
+  "theory": {
+    "sections": [
+      {
+        "title": "Когда использовать Present Perfect?",
+        "content": "Мы используем Present Perfect, когда действие произошло в прошлом, но его РЕЗУЛЬТАТ важен прямо сейчас. Нам не важно, КОГДА это произошло.",
+        "formula": "Подлежащее + have/has + V3 (3-я форма глагола / окончание -ed)",
+        "examples": [
+          {
+            "en": "I have lost my keys.",
+            "ru": "Я потерял ключи (и поэтому сейчас не могу попасть домой)."
+          },
+          {
+            "en": "She has written three books.",
+            "ru": "Она написала три книги (к настоящему моменту)."
+          }
+        ],
+        "tip": "Вспомогательный глагол has используется для he, she, it. Во всех остальных случаях — have."
+      },
+      {
+        "title": "Слова-маркеры",
+        "content": "Часто Present Perfect употребляется со словами: just (только что), already (уже), yet (еще не, уже?), ever (когда-либо), never (никогда), recently (недавно).",
+        "examples": [
+          {
+            "en": "I have just finished my homework.",
+            "ru": "Я только что закончил домашнее задание."
+          },
+          {
+            "en": "Have you ever been to Paris?",
+            "ru": "Ты когда-нибудь был в Париже?"
+          }
+        ]
+      },
+      {
+        "title": "Вопросы и отрицания",
+        "content": "В вопросах have/has выносится вперед. В отрицаниях добавляется not (haven't / hasn't).",
+        "examples": [
+          {
+            "en": "Have you seen this movie?",
+            "ru": "Ты видел этот фильм?"
+          },
+          {
+            "en": "He hasn't arrived yet.",
+            "ru": "Он еще не приехал."
+          }
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "ru_to_en": [
+      {
+        "prompt": "Я только что закончил работу.",
+        "words": [
+          "I",
+          "have",
+          "just",
+          "finished",
+          "work",
+          "has",
+          "finish"
+        ],
+        "accepted_answers": [
+          "I have just finished work"
+        ]
+      },
+      {
+        "prompt": "Она уже посмотрела этот фильм.",
+        "words": [
+          "She",
+          "has",
+          "already",
+          "seen",
+          "this",
+          "movie",
+          "have",
+          "see"
+        ],
+        "accepted_answers": [
+          "She has already seen this movie"
+        ]
+      },
+      {
+        "prompt": "Ты когда-нибудь был в Лондоне?",
+        "words": [
+          "Have",
+          "you",
+          "ever",
+          "been",
+          "to",
+          "London",
+          "Has",
+          "be"
+        ],
+        "accepted_answers": [
+          "Have you ever been to London"
+        ]
+      },
+      {
+        "prompt": "Мы еще не пообедали.",
+        "words": [
+          "We",
+          "have",
+          "not",
+          "had",
+          "lunch",
+          "yet",
+          "has",
+          "have"
+        ],
+        "accepted_answers": [
+          "We have not had lunch yet"
+        ]
+      },
+      {
+        "prompt": "Он никогда не ел суши.",
+        "words": [
+          "He",
+          "has",
+          "never",
+          "eaten",
+          "sushi",
+          "have",
+          "ate"
+        ],
+        "accepted_answers": [
+          "He has never eaten sushi"
+        ]
+      },
+      {
+        "prompt": "Я потерял свои ключи.",
+        "words": [
+          "I",
+          "have",
+          "lost",
+          "my",
+          "keys",
+          "has",
+          "lose"
+        ],
+        "accepted_answers": [
+          "I have lost my keys"
+        ]
+      },
+      {
+        "prompt": "Они купили новую машину.",
+        "words": [
+          "They",
+          "have",
+          "bought",
+          "a",
+          "new",
+          "car",
+          "has",
+          "buy"
+        ],
+        "accepted_answers": [
+          "They have bought a new car"
+        ]
+      },
+      {
+        "prompt": "Ты уже сделал домашнее задание?",
+        "words": [
+          "Have",
+          "you",
+          "done",
+          "your",
+          "homework",
+          "yet",
+          "Has",
+          "do"
+        ],
+        "accepted_answers": [
+          "Have you done your homework yet"
+        ]
+      },
+      {
+        "prompt": "Она еще не приехала.",
+        "words": [
+          "She",
+          "has",
+          "not",
+          "arrived",
+          "yet",
+          "have",
+          "arrive"
+        ],
+        "accepted_answers": [
+          "She has not arrived yet"
+        ]
+      },
+      {
+        "prompt": "Мы знали друг друга 10 лет.",
+        "words": [
+          "We",
+          "have",
+          "known",
+          "each",
+          "other",
+          "for",
+          "10",
+          "years",
+          "has",
+          "know"
+        ],
+        "accepted_answers": [
+          "We have known each other for 10 years"
+        ]
+      }
+    ],
+    "en_to_ru": [
+      {
+        "prompt": "I have just sent the email.",
+        "options": [
+          "Я только что отправил email.",
+          "Я отправляю email сейчас.",
+          "Я отправлю email завтра.",
+          "Я отправил email вчера."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "She has never been to Spain.",
+        "options": [
+          "Она никогда не была в Испании.",
+          "Она не была в Испании в прошлом году.",
+          "Она никогда не поедет в Испанию.",
+          "Она была в Испании однажды."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Have you seen my glasses?",
+        "options": [
+          "Ты видел мои очки?",
+          "Ты видишь мои очки?",
+          "Ты посмотришь на мои очки?",
+          "Где мои очки?"
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "They haven't finished yet.",
+        "options": [
+          "Они еще не закончили.",
+          "Они уже закончили.",
+          "Они никогда не заканчивают.",
+          "Они только что закончили."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "He has bought a new phone.",
+        "options": [
+          "Он купил новый телефон.",
+          "Он покупает новый телефон.",
+          "Он купит новый телефон.",
+          "Он продал старый телефон."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Have you ever eaten oysters?",
+        "options": [
+          "Ты когда-нибудь ел устриц?",
+          "Ты ешь устриц?",
+          "Ты поешь устриц?",
+          "Ты никогда не ел устриц."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "I have known him for a long time.",
+        "options": [
+          "Я знаю его давно.",
+          "Я узнал его недавно.",
+          "Я знал его в прошлом.",
+          "Я буду знать его долго."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "The train has already left.",
+        "options": [
+          "Поезд уже ушел.",
+          "Поезд еще не ушел.",
+          "Поезд уходит сейчас.",
+          "Поезд только что пришел."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "We have washed the car.",
+        "options": [
+          "Мы помыли машину.",
+          "Мы моем машину.",
+          "Мы помоем машину.",
+          "Мы не мыли машину."
+        ],
+        "correct": 0
+      },
+      {
+        "prompt": "Has she found a job?",
+        "options": [
+          "Она нашла работу?",
+          "Она ищет работу?",
+          "Она найдет работу?",
+          "Где она нашла работу?"
+        ],
+        "correct": 0
+      }
+    ],
+    "fill_blank": [
+      {
+        "sentence": "I ___ just finished my work.",
+        "options": [
+          "have",
+          "has",
+          "had",
+          "am"
+        ],
+        "correct": 0,
+        "explanation": "С I используется вспомогательный глагол have."
+      },
+      {
+        "sentence": "She ___ already read this book.",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "was"
+        ],
+        "correct": 1,
+        "explanation": "С she используется вспомогательный глагол has."
+      },
+      {
+        "sentence": "___ you ever been to New York?",
+        "options": [
+          "Have",
+          "Has",
+          "Did",
+          "Do"
+        ],
+        "correct": 0,
+        "explanation": "Вопрос с you начинается с Have."
+      },
+      {
+        "sentence": "He hasn't ___ his homework yet.",
+        "options": [
+          "do",
+          "did",
+          "done",
+          "doing"
+        ],
+        "correct": 2,
+        "explanation": "В Present Perfect нужен глагол в 3-й форме (V3). Третья форма глагола do — done."
+      },
+      {
+        "sentence": "They have ___ a new house.",
+        "options": [
+          "buy",
+          "bought",
+          "buying",
+          "buys"
+        ],
+        "correct": 1,
+        "explanation": "В Present Perfect нужен глагол в 3-й форме (V3). Третья форма глагола buy — bought."
+      },
+      {
+        "sentence": "I have ___ this movie three times.",
+        "options": [
+          "see",
+          "saw",
+          "seen",
+          "seeing"
+        ],
+        "correct": 2,
+        "explanation": "Третья форма глагола see — seen."
+      },
+      {
+        "sentence": "We haven't met ___.",
+        "options": [
+          "already",
+          "just",
+          "yet",
+          "ever"
+        ],
+        "correct": 2,
+        "explanation": "Yet (еще не) используется в конце отрицательных предложений."
+      },
+      {
+        "sentence": "She has ___ eaten sushi.",
+        "options": [
+          "ever",
+          "never",
+          "yet",
+          "since"
+        ],
+        "correct": 1,
+        "explanation": "Never ставится между has и смысловым глаголом в утвердительных предложениях с отрицательным смыслом."
+      },
+      {
+        "sentence": "How long ___ you known him?",
+        "options": [
+          "have",
+          "has",
+          "do",
+          "did"
+        ],
+        "correct": 0,
+        "explanation": "Вопрос с you требует вспомогательный глагол have."
+      },
+      {
+        "sentence": "I have lived here ___ 5 years.",
+        "options": [
+          "since",
+          "for",
+          "from",
+          "in"
+        ],
+        "correct": 1,
+        "explanation": "For используется для обозначения периода (продолжительности) времени."
+      }
+    ]
+  }
+}
