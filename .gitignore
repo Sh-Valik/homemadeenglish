@@ -1,0 +1,17 @@
+# Flask legacy directories
+app/
+templates/
+static/
+migrations/
+instance/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+*.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
