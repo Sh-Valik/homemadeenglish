@@ -20,8 +20,11 @@ st.markdown(f"# 👤 Профиль: {st.session_state.username}")
 col_h1, col_h2 = st.columns([0.8, 0.2])
 with col_h2:
     if st.button("🚪 Выйти"):
+        # Just clear the local session — progress stays in the DB untouched.
+        st.session_state.user_id = None
         st.session_state.username = None
-        reset_all_progress()
+        st.session_state.practice = None
+        st.session_state.mix_practice = None
         st.switch_page("pages/home.py")
 
 st.divider()

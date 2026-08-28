@@ -17,6 +17,19 @@ from utils.styles import tts_button
 
 from utils.session_state import get_error_log
 
+
+def _mix_advance(prac):
+    """Advance to next exercise or show results."""
+    prac["current_index"] += 1
+    prac["selected_words"] = []
+    prac["feedback"] = None
+    if prac["current_index"] >= prac["total"]:
+        prac["state"] = "results"
+    else:
+        prac["state"] = "showing"
+    st.rerun()
+
+
 if not is_logged_in():
     st.warning("Пожалуйста, войдите на главной странице")
     if st.button("🏠 На главную"):
@@ -198,15 +211,3 @@ else:
 
         if st.button("Далее →", type="primary", use_container_width=True):
             _mix_advance(prac)
-
-
-def _mix_advance(prac):
-    """Advance to next exercise or show results."""
-    prac["current_index"] += 1
-    prac["selected_words"] = []
-    prac["feedback"] = None
-    if prac["current_index"] >= prac["total"]:
-        prac["state"] = "results"
-    else:
-        prac["state"] = "showing"
-    st.rerun()

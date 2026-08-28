@@ -18,6 +18,23 @@ from utils.practice_logic import (
 from utils.styles import tts_button
 
 
+def _advance(prac, topic_id, stage):
+    """Advance to next exercise or results."""
+    prac["current_index"] += 1
+    prac["selected_words"] = []
+    prac["feedback"] = None
+
+    if prac["current_index"] >= prac["total"]:
+        stars = calculate_stars(prac["correct_count"], prac["total"])
+        prac["stars"] = stars
+        prac["state"] = "results"
+        if not prac.get("is_mix"):
+            complete_stage(topic_id, stage, prac["correct_count"], prac["total"], stars)
+    else:
+        prac["state"] = "showing"
+    st.rerun()
+
+
 if not is_logged_in():
     st.warning("Пожалуйста, войдите на главной странице")
     if st.button("🏠 На главную"):
@@ -290,20 +307,3 @@ elif stage == 3:
 
         if st.button("Далее →", type="primary", use_container_width=True):
             _advance(prac, topic_id, stage)
-
-
-def _advance(prac, topic_id, stage):
-    """Advance to next exercise or results."""
-    prac["current_index"] += 1
-    prac["selected_words"] = []
-    prac["feedback"] = None
-
-    if prac["current_index"] >= prac["total"]:
-        stars = calculate_stars(prac["correct_count"], prac["total"])
-        prac["stars"] = stars
-        prac["state"] = "results"
-        if not prac.get("is_mix"):
-            complete_stage(topic_id, stage, prac["correct_count"], prac["total"], stars)
-    else:
-        prac["state"] = "showing"
-    st.rerun()
